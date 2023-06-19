@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "E:\\virtusa_phase2\\projects\\DotNet\\AcademyAngularDotNet\\dotnetapp\\WebApp\\WebApp.csproj": {}
+    "/home/coder/project/workspace/dotnetapp/WebApp/WebApp.csproj": {}
   },
   "projects": {
-    "E:\\virtusa_phase2\\projects\\DotNet\\AcademyAngularDotNet\\dotnetapp\\WebApp\\WebApp.csproj": {
+    "/home/coder/project/workspace/dotnetapp/WebApp/WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\virtusa_phase2\\projects\\DotNet\\AcademyAngularDotNet\\dotnetapp\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "/home/coder/project/workspace/dotnetapp/WebApp/WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "E:\\virtusa_phase2\\projects\\DotNet\\AcademyAngularDotNet\\dotnetapp\\WebApp\\WebApp.csproj",
-        "packagesPath": "C:\\Users\\bhuva\\.nuget\\packages\\",
-        "outputPath": "E:\\virtusa_phase2\\projects\\DotNet\\AcademyAngularDotNet\\dotnetapp\\WebApp\\obj\\",
+        "projectPath": "/home/coder/project/workspace/dotnetapp/WebApp/WebApp.csproj",
+        "packagesPath": "/home/coder/.nuget/packages/",
+        "outputPath": "/home/coder/project/workspace/dotnetapp/WebApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bhuva\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/coder/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +35,22 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
         }
       }
     }
