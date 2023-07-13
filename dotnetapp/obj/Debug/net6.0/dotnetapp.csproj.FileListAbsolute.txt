@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 >>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
+>>>>>>> 31d5168e2048f8d9a85370563d7ca255533f3a4c
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.csproj.AssemblyReference.cache
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.GeneratedMSBuildEditorConfig.editorconfig
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.csproj.CoreCompileInputs.cache
@@ -91,11 +94,14 @@
 =======
 =======
 >>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.csproj.AssemblyReference.cache
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.GeneratedMSBuildEditorConfig.editorconfig
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.csproj.CoreCompileInputs.cache
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.MvcApplicationPartsAssemblyInfo.cs
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.MvcApplicationPartsAssemblyInfo.cache
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 >>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
 >>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
@@ -108,6 +114,16 @@
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.pdb
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.genruntimeconfig.cache
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/ref/dotnetapp.dll
+<<<<<<< HEAD
+/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/appsettings.Development.json
+/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/appsettings.json
+/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/dotnetapp.deps.json
+/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/dotnetapp.runtimeconfig.json
+/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/TestProject.deps.json
+/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/TestProject.runtimeconfig.json
+/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/TestProject/obj/project.assets.json
+/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/TestProject/obj/TestProject.csproj.nuget.dgspec.json
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD

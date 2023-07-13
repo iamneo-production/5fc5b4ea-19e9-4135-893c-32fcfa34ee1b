@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using dotnetapp.Models;
@@ -44,7 +44,45 @@ namespace dotnetapp
         {
             return data_Access_layer.saveAdmin(user);
         }
-        public List<LoanModel> getAllLoans()
+
+        //Review Controller
+        public string AddReview(ReviewModel review)
+        {
+            return data_Access_layer.AddReview(review);
+        }
+        public List<ReviewModel> GetReviews()
+        {
+            return data_Access_layer.GetReviews();
+        }
+     //Admin Controller
+         public int getDocumentId()
+        {
+            return data_Access_layer.getDocumentId();
+        }
+        public string addDocuments(IFormCollection data, IFormFile file)
+        {
+            long length = file.Length;
+            using var fileStream = file.OpenReadStream();
+            byte[] bytes =  new byte[length];
+            fileStream.Read(bytes, 0, (int)file.Length);
+            DocumentModel documentModel = new DocumentModel();
+            documentModel.documenttype = data["documenttype"];
+            documentModel.documentupload = bytes;
+            return data_Access_layer.addDocuments(documentModel);
+        }
+        public string editDocuments(int documentId, DocumentModel data)
+        {
+            return data_Access_layer.editDocuments(documentId, data);
+        }
+        public DocumentModel getDocuments(int documentId)
+        {
+            return data_Access_layer.getDocuments(documentId);
+        }
+        public string deleteDocuments(int documentId)
+        {
+            return data_Access_layer.deleteDocuments(documentId);
+        }
+         public List<LoanModel> getAllLoans()
         {
             return data_Access_layer.getAllLoans();
         }
@@ -56,16 +94,6 @@ namespace dotnetapp
         {
             return data_Access_layer.approveLoan(loanId, status);
         }
-        public string AddReview(ReviewModel review)
-        {
-            return data_Access_layer.AddReview(review);
-        }
-        public List<ReviewModel> GetReviews()
-        {
-            return data_Access_layer.GetReviews();
-        }   
-
-
 
 
         //LoanController
