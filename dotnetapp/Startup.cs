@@ -1,26 +1,69 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute> 
-  </PropertyGroup>
+namespace dotnetapp
+{
+    public class Startup
+    {
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNet.WebApi.Cors" Version="5.2.9" />
-    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0" />
-    <PackageReference Include="Moq" Version="4.18.4" />
-    <PackageReference Include="NUnit" Version="3.13" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
-  </ItemGroup>
+        public IConfiguration Configuration { get; }
+
+        // This method gets called by the runtime. Use this method to add services to the container.
+        public void ConfigureServices(IServiceCollection services)
+        {
+            //string connectionString = Configuration.GetConnectionString("myconnstring");
+           // services.AddDbContext<ProductDBContext>(opt => opt.UseSqlServer(connectionString));
+           // services.AddScoped<IProductService, ProductService>();
+            services.AddCors();
+
+            services.AddControllers();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "dotnetapp", Version = "v1" });
+            });
+        }
+
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "dotnetapp v1"));
+            }
+
+            app.UseHttpsRedirection();
+
+            app.UseRouting();
+
+            app.UseCors(options => options.WithOrigins("https://8081-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/").AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
+            app.UseAuthorization();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
+        }
+    }
+}
 
 </Project>
