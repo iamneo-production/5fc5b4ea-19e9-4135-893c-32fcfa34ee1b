@@ -22,6 +22,10 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/home/coder/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
     <PkgNUnit_Analyzers Condition=" '$(PkgNUnit_Analyzers)' == '' ">/home/coder/.nuget/packages/nunit.analyzers/3.3.0</PkgNUnit_Analyzers>
+<<<<<<< HEAD
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/home/coder/.nuget/packages/newtonsoft.json/10.0.1</PkgNewtonsoft_Json>
+=======
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/home/coder/.nuget/packages/newtonsoft.json/9.0.1</PkgNewtonsoft_Json>
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
   </PropertyGroup>
 </Project>

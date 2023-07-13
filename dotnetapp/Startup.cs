@@ -54,7 +54,9 @@ namespace dotnetapp
 
             app.UseRouting();
 
-            app.UseCors(options => options.WithOrigins("https://8081-bbafeefeaedabdacfdafeabdcdceeeeaf.project.examly.io/").AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
+            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+           
 
             app.UseAuthorization();
 
