@@ -38,6 +38,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+<<<<<<< HEAD
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -67,6 +74,13 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+<<<<<<< HEAD
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
             }
           },
           "imports": [

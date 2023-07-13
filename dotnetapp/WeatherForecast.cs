@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 using System;
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
 namespace dotnetapp;
 
 public class WeatherForecast
