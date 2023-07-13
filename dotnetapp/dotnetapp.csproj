@@ -2,13 +2,21 @@
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 <PropertyGroup>
 >>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
      <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute> 
   </PropertyGroup>
+<<<<<<< HEAD
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Cors" Version="5.2.9" />
+=======
 <<<<<<< HEAD
 
   <ItemGroup>
@@ -21,6 +29,7 @@
 
   <ItemGroup>
 >>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -32,10 +41,15 @@
     <PackageReference Include="NUnit" Version="3.13" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
 </Project>
+<<<<<<< HEAD
+=======
 =======
   </ItemGroup>
 </Project>
@@ -45,3 +59,4 @@
 
 </Project>
 >>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
