@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.csproj.AssemblyReference.cache
+/home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.GeneratedMSBuildEditorConfig.editorconfig
+/home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.csproj.CoreCompileInputs.cache
+/home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.MvcApplicationPartsAssemblyInfo.cs
+/home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.MvcApplicationPartsAssemblyInfo.cache
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/appsettings.Development.json
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/appsettings.json
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/obj/project.assets.json
@@ -60,11 +72,23 @@
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.csproj.AssemblyReference.cache
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.GeneratedMSBuildEditorConfig.editorconfig
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.csproj.CoreCompileInputs.cache
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.MvcApplicationPartsAssemblyInfo.cs
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.MvcApplicationPartsAssemblyInfo.cache
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/staticwebassets.build.json
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/staticwebassets.development.json
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/scopedcss/bundle/dotnetapp.styles.css
@@ -74,6 +98,7 @@
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.pdb
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.genruntimeconfig.cache
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/ref/dotnetapp.dll
+<<<<<<< HEAD
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/appsettings.Development.json
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/appsettings.json
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/dotnetapp.deps.json
@@ -82,3 +107,10 @@
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/TestProject.runtimeconfig.json
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/TestProject/obj/project.assets.json
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/TestProject/obj/TestProject.csproj.nuget.dgspec.json
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c

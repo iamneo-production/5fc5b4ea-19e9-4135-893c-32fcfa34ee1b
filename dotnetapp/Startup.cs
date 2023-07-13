@@ -54,6 +54,16 @@ namespace dotnetapp
 
             app.UseRouting();
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+           
+
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
