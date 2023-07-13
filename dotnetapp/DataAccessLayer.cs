@@ -9,7 +9,6 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Xml.Linq;
 using dotnetapp.Models;
-
 namespace dotnetapp
 {
     public class DataAccessLayer
