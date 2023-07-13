@@ -14,7 +14,6 @@ namespace dotnetapp
     public class DataAccessLayer
     {
         private string connectionString;
-
         SqlConnection con=null;
         public DataAccessLayer()
         {
@@ -22,7 +21,6 @@ namespace dotnetapp
             con = new SqlConnection(connectionString);
         }
         //Auth Controller
-
         public bool isUserPresent(LoginModel data)
         {
           try
@@ -31,7 +29,6 @@ namespace dotnetapp
                 da.SelectCommand.CommandType = CommandType.StoredProcedure;
                 da.SelectCommand.Parameters.AddWithValue("@email", data.email);
                 da.SelectCommand.Parameters.AddWithValue("@password", data.password);
-
                 DataTable dt = new DataTable();
                 da.Fill(dt);
                 if (dt.Rows.Count > 0)
@@ -48,17 +45,14 @@ namespace dotnetapp
                 return false;
             }
         }
-
         public bool isAdminPresent(LoginModel data)
         {
-
             try
             {
                  SqlDataAdapter da = new SqlDataAdapter("AdminLogin", con);
                 da.SelectCommand.CommandType = CommandType.StoredProcedure;
                 da.SelectCommand.Parameters.AddWithValue("@email", data.email);
                 da.SelectCommand.Parameters.AddWithValue("@password", data.password);
-
                 DataTable dt = new DataTable();
                 da.Fill(dt);
                 if (dt.Rows.Count > 0)
@@ -75,7 +69,6 @@ namespace dotnetapp
                 return false;
             }
         }
-
         public string saveUser(UserModel user)
         {
             try
@@ -88,7 +81,6 @@ namespace dotnetapp
                 cmd.Parameters.AddWithValue("@username", user.username);
                 cmd.Parameters.AddWithValue("@mobileNumber", user.mobileNumber);
                 cmd.Parameters.AddWithValue("@userRole", user.userRole);
-
                 cmd.Connection = con;
                 con.Open();
                 int roweffect = cmd.ExecuteNonQuery();
@@ -104,10 +96,9 @@ namespace dotnetapp
                 return e.Message;
             }
         }
-
         public string saveAdmin(UserModel user)
         {
-             try
+            try
             {
                 SqlCommand cmd = new SqlCommand();
                 cmd.CommandText = "AddAdmin";
@@ -116,12 +107,10 @@ namespace dotnetapp
                 cmd.Parameters.AddWithValue("@password", user.password);
                 cmd.Parameters.AddWithValue("@mobileNumber", user.mobileNumber);
                 cmd.Parameters.AddWithValue("@userRole", user.userRole);
-
                 cmd.Connection = con;
                 con.Open();
                 int roweffect = cmd.ExecuteNonQuery();
                 con.Close();
-
                 if (roweffect >= 1){
                     return ("Admin added successfully");
                 }
