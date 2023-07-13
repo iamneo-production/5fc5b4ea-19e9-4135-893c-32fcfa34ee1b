@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using dotnetapp.Models;
 using Microsoft.AspNetCore.Http;
-
 namespace dotnetapp
 {
     public class BusinessLayer
