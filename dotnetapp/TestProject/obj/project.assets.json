@@ -24,6 +24,13 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "Microsoft.AspNet.Cors/5.2.9": {
         "type": "package",
         "compile": {
@@ -83,6 +90,14 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "Microsoft.CodeCoverage/17.1.0": {
         "type": "package",
         "compile": {
@@ -547,7 +562,19 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.NETCore.Targets/1.1.0": {
+=======
+<<<<<<< HEAD
+      "Microsoft.NETCore.Targets/1.1.0": {
+=======
+<<<<<<< HEAD
+      "Microsoft.NETCore.Targets/1.1.0": {
+=======
+      "Microsoft.NETCore.Targets/1.0.1": {
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -899,6 +926,13 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "Newtonsoft.Json/10.0.1": {
         "type": "package",
         "dependencies": {
@@ -948,11 +982,59 @@
         },
         "compile": {
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1",
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Dynamic.Runtime": "4.0.11",
+          "System.Globalization": "4.0.11",
+          "System.IO": "4.1.0",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.ObjectModel": "4.0.12",
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Runtime.Serialization.Primitives": "4.1.1",
+          "System.Text.Encoding": "4.0.11",
+          "System.Text.Encoding.Extensions": "4.0.11",
+          "System.Text.RegularExpressions": "4.1.0",
+          "System.Threading": "4.0.11",
+          "System.Threading.Tasks": "4.0.11",
+          "System.Xml.ReaderWriter": "4.0.11",
+          "System.Xml.XDocument": "4.0.11"
+        },
+        "compile": {
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
             "related": ".xml"
           }
         },
         "runtime": {
+<<<<<<< HEAD
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {
+=======
+<<<<<<< HEAD
+          "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {
+=======
+<<<<<<< HEAD
+          "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {
+=======
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
             "related": ".xml"
           }
         }
@@ -998,6 +1080,13 @@
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -1033,6 +1122,14 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "Swashbuckle.AspNetCore/5.6.3": {
         "type": "package",
         "dependencies": {
@@ -1099,12 +1196,33 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Collections/4.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.3/System.Collections.dll": {
@@ -1131,6 +1249,13 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Collections.NonGeneric/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1228,6 +1353,14 @@
           "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Configuration.ConfigurationManager/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -1245,6 +1378,13 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Data.SqlClient/4.8.5": {
         "type": "package",
         "dependencies": {
@@ -1279,6 +1419,20 @@
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Diagnostics.Debug/4.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.3/System.Diagnostics.Debug.dll": {
@@ -1331,12 +1485,33 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Diagnostics.Tools/4.3.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Diagnostics.Tools/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.0/_._": {
@@ -1369,6 +1544,13 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Dynamic.Runtime/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1386,6 +1568,32 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Dynamic.Runtime/4.0.11": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Globalization": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.ObjectModel": "4.0.12",
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Emit": "4.0.1",
+          "System.Reflection.Emit.ILGeneration": "4.0.1",
+          "System.Reflection.Primitives": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.1.0",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Threading": "4.0.11"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.3/System.Dynamic.Runtime.dll": {
@@ -1396,12 +1604,33 @@
           "lib/netstandard1.3/System.Dynamic.Runtime.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Globalization/4.3.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Globalization/4.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.3/System.Globalization.dll": {
@@ -1409,6 +1638,13 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Globalization.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1435,6 +1671,14 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.IdentityModel.Tokens.Jwt/6.8.0": {
         "type": "package",
         "dependencies": {
@@ -1452,6 +1696,13 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.IO/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1460,6 +1711,22 @@
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.IO/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Text.Encoding": "4.0.11",
+          "System.Threading.Tasks": "4.0.11"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.5/System.IO.dll": {
@@ -1467,6 +1734,13 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.IO.FileSystem/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1478,6 +1752,25 @@
           "System.Runtime.Handles": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.IO.FileSystem/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.IO": "4.1.0",
+          "System.IO.FileSystem.Primitives": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Handles": "4.0.1",
+          "System.Text.Encoding": "4.0.11",
+          "System.Threading.Tasks": "4.0.11"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.3/_._": {
@@ -1485,10 +1778,29 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.IO.FileSystem.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.IO.FileSystem.Primitives/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.3/_._": {
@@ -1499,6 +1811,13 @@
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Linq/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1507,6 +1826,22 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Linq/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.6/System.Linq.dll": {
@@ -1517,6 +1852,13 @@
           "lib/netstandard1.6/System.Linq.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Linq.Expressions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1537,6 +1879,34 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Linq.Expressions/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Globalization": "4.0.11",
+          "System.IO": "4.1.0",
+          "System.Linq": "4.1.0",
+          "System.ObjectModel": "4.0.12",
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Emit": "4.0.1",
+          "System.Reflection.Emit.ILGeneration": "4.0.1",
+          "System.Reflection.Emit.Lightweight": "4.0.1",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Reflection.Primitives": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.1.0",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Threading": "4.0.11"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.6/System.Linq.Expressions.dll": {
@@ -1547,6 +1917,13 @@
           "lib/netstandard1.6/System.Linq.Expressions.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.ObjectModel/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1555,6 +1932,22 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Threading": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.ObjectModel/4.0.12": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Threading": "4.0.11"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.3/System.ObjectModel.dll": {
@@ -1565,6 +1958,13 @@
           "lib/netstandard1.3/System.ObjectModel.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Reflection/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1573,6 +1973,22 @@
           "System.IO": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Reflection/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.IO": "4.1.0",
+          "System.Reflection.Primitives": "4.0.1",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.5/System.Reflection.dll": {
@@ -1580,6 +1996,13 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Reflection.Emit/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1588,6 +2011,22 @@
           "System.Reflection.Emit.ILGeneration": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Reflection.Emit/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.IO": "4.1.0",
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Emit.ILGeneration": "4.0.1",
+          "System.Reflection.Primitives": "4.0.1",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.1/_._": {
@@ -1598,12 +2037,33 @@
           "lib/netstandard1.3/System.Reflection.Emit.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Reflection.Emit.ILGeneration/4.3.0": {
         "type": "package",
         "dependencies": {
           "System.Reflection": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Reflection.Emit.ILGeneration/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Primitives": "4.0.1",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.0/_._": {
@@ -1614,6 +2074,13 @@
           "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Reflection.Emit.Lightweight/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1621,6 +2088,21 @@
           "System.Reflection.Emit.ILGeneration": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Reflection.Emit.Lightweight/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Emit.ILGeneration": "4.0.1",
+          "System.Reflection.Primitives": "4.0.1",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.0/_._": {
@@ -1631,6 +2113,13 @@
           "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Reflection.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1638,6 +2127,21 @@
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Reflection.Extensions/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Reflection": "4.1.0",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.0/System.Reflection.Extensions.dll": {
@@ -1658,12 +2162,33 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Reflection.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Reflection.Primitives/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.0/System.Reflection.Primitives.dll": {
@@ -1671,11 +2196,31 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Reflection.TypeExtensions/4.3.0": {
         "type": "package",
         "dependencies": {
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Reflection.TypeExtensions/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection": "4.1.0",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.5/_._": {
@@ -1686,6 +2231,13 @@
           "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Resources.ResourceManager/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1694,6 +2246,22 @@
           "System.Globalization": "4.3.0",
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Resources.ResourceManager/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Globalization": "4.0.11",
+          "System.Reflection": "4.1.0",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.0/System.Resources.ResourceManager.dll": {
@@ -1701,11 +2269,31 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Runtime/4.3.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Runtime/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.dll": {
@@ -1751,12 +2339,33 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Runtime.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Runtime.Extensions/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.Extensions.dll": {
@@ -1764,12 +2373,33 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Runtime.Handles/4.3.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Runtime.Handles/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.3/_._": {
@@ -1777,6 +2407,13 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Runtime.InteropServices/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1829,6 +2466,35 @@
         "dependencies": {
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Runtime.InteropServices/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Primitives": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Handles": "4.0.1"
+        },
+        "compile": {
+          "ref/netstandard1.5/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {
@@ -1938,12 +2604,33 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Text.Encoding/4.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.3/System.Text.Encoding.dll": {
@@ -1973,6 +2660,13 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Text.Encoding.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1980,6 +2674,21 @@
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Text.Encoding.Extensions/4.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Text.Encoding": "4.0.11"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.3/System.Text.Encoding.Extensions.dll": {
@@ -1987,6 +2696,13 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Text.RegularExpressions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1994,16 +2710,58 @@
         },
         "compile": {
           "ref/netcoreapp1.1/System.Text.RegularExpressions.dll": {}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Text.RegularExpressions/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.Globalization": "4.0.11",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Threading": "4.0.11"
+        },
+        "compile": {
+          "ref/netstandard1.6/System.Text.RegularExpressions.dll": {
+            "related": ".xml"
+          }
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "runtime": {
           "lib/netstandard1.6/System.Text.RegularExpressions.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Threading/4.3.0": {
         "type": "package",
         "dependencies": {
           "System.Runtime": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Threading/4.0.11": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.1.0",
+          "System.Threading.Tasks": "4.0.11"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.3/System.Threading.dll": {
@@ -2014,12 +2772,33 @@
           "lib/netstandard1.3/System.Threading.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Threading.Tasks/4.3.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Threading.Tasks/4.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {
@@ -2027,12 +2806,33 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Threading.Tasks.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
           "System.Collections": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Threading.Tasks.Extensions/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.Runtime": "4.1.0",
+          "System.Threading.Tasks": "4.0.11"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "lib/netstandard1.0/_._": {
@@ -2067,6 +2867,13 @@
           }
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Xml.ReaderWriter/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2085,6 +2892,32 @@
           "System.Text.RegularExpressions": "4.3.0",
           "System.Threading.Tasks": "4.3.0",
           "System.Threading.Tasks.Extensions": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Xml.ReaderWriter/4.0.11": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Globalization": "4.0.11",
+          "System.IO": "4.1.0",
+          "System.IO.FileSystem": "4.0.1",
+          "System.IO.FileSystem.Primitives": "4.0.1",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Text.Encoding": "4.0.11",
+          "System.Text.Encoding.Extensions": "4.0.11",
+          "System.Text.RegularExpressions": "4.1.0",
+          "System.Threading.Tasks": "4.0.11",
+          "System.Threading.Tasks.Extensions": "4.0.0"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.3/System.Xml.ReaderWriter.dll": {
@@ -2095,6 +2928,13 @@
           "lib/netstandard1.3/System.Xml.ReaderWriter.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Xml.XDocument/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2110,6 +2950,29 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+      "System.Xml.XDocument/4.0.11": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Diagnostics.Tools": "4.0.1",
+          "System.Globalization": "4.0.11",
+          "System.IO": "4.1.0",
+          "System.Reflection": "4.1.0",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Text.Encoding": "4.0.11",
+          "System.Threading": "4.0.11",
+          "System.Xml.ReaderWriter": "4.0.11"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "ref/netstandard1.3/System.Xml.XDocument.dll": {
@@ -2120,6 +2983,13 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "System.Xml.XmlDocument/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2143,18 +3013,51 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "dotnetapp/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+<<<<<<< HEAD
           "Microsoft.AspNet.WebApi.Cors": "5.2.9",
+=======
+<<<<<<< HEAD
+          "Microsoft.AspNet.WebApi.Cors": "5.2.9",
+=======
+<<<<<<< HEAD
+          "Microsoft.AspNet.WebApi.Cors": "5.2.9",
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
           "Microsoft.EntityFrameworkCore": "6.0.0",
           "Microsoft.EntityFrameworkCore.InMemory": "6.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
           "Moq": "4.18.4",
           "NUnit": "3.13.0",
+<<<<<<< HEAD
           "Swashbuckle.AspNetCore": "5.6.3",
           "System.Data.SqlClient": "4.8.5"
+=======
+<<<<<<< HEAD
+          "Swashbuckle.AspNetCore": "5.6.3",
+          "System.Data.SqlClient": "4.8.5"
+=======
+<<<<<<< HEAD
+          "Swashbuckle.AspNetCore": "5.6.3",
+          "System.Data.SqlClient": "4.8.5"
+=======
+          "Swashbuckle.AspNetCore": "5.6.3"
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         },
         "compile": {
           "bin/placeholder/dotnetapp.dll": {}
@@ -2244,6 +3147,13 @@
         "coverlet.collector.nuspec"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "Microsoft.AspNet.Cors/5.2.9": {
       "sha512": "LUjfvaOu0q9bz523CYmIE06Q9EttrpKuRLm3T83spF6oX+dYiFlLJFLm4RveGKq/puRJC5KTnXdbWGLqM783jA==",
       "type": "package",
@@ -2308,6 +3218,14 @@
         "microsoft.aspnet.webapi.cors.nuspec"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "Microsoft.CodeCoverage/17.1.0": {
       "sha512": "0N/ZJ71ncCxQWhgtkEYKOgu2oMHa8h1tsOUbhmIKXF8UwtSUCe4vHAsJ3DVcNWRwNfQzSTy263ZE+QF6MdIhhQ==",
       "type": "package",
@@ -3053,17 +3971,48 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "Microsoft.NETCore.Targets/1.1.0": {
       "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "Microsoft.NETCore.Targets/1.0.1": {
+      "sha512": "rkn+fKobF/cbWfnnfBOQHKVKIOpxMZBvlSHkqDWgBpwGDcLRduvs3D9OLGeV6GWGvVwNlVi2CBbTjuPmtHvyNw==",
+      "type": "package",
+      "path": "microsoft.netcore.targets/1.0.1",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
+<<<<<<< HEAD
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "microsoft.netcore.targets.1.1.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "microsoft.netcore.targets.1.1.0.nupkg.sha512",
+=======
+        "microsoft.netcore.targets.1.0.1.nupkg.sha512",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
       ]
@@ -3777,10 +4726,29 @@
         "netstandard.library.nuspec"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "Newtonsoft.Json/10.0.1": {
       "sha512": "ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
       "type": "package",
       "path": "newtonsoft.json/10.0.1",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "Newtonsoft.Json/9.0.1": {
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "type": "package",
+      "path": "newtonsoft.json/9.0.1",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -3795,15 +4763,42 @@
         "lib/net45/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.xml",
         "newtonsoft.json.10.0.1.nupkg.sha512",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.9.0.1.nupkg.sha512",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "Newtonsoft.Json.Bson/1.0.1": {
       "sha512": "5PYT/IqQ+UK31AmZiSS102R6EsTo+LGTSI8bp7WAUqDKaF4wHXD8U9u4WxTI1vc64tYi++8p3dk3WWNqPFgldw==",
       "type": "package",
@@ -3819,6 +4814,14 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "NuGet.Frameworks/5.11.0": {
       "sha512": "eaiXkUjC4NPcquGWzAGMXjuxvLwc6XGKMptSyOGQeT0X70BUZObuybJFZLA0OfTdueLd3US23NBPTBb6iF3V1Q==",
       "type": "package",
@@ -3903,6 +4906,13 @@
         "nunit3testadapter.nuspec"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "sha512": "9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
       "type": "package",
@@ -3999,6 +5009,47 @@
       "sha512": "CkhVeod/iLd3ikVTDOwG5sym8BE5xbqGJ15iF3cC7ZPg2kEwDQL4a88xjkzsvC9oOB2ax6B0rK0EgRK+eOBX+w==",
       "type": "package",
       "path": "swashbuckle.aspnetcore.swaggergen/5.6.3",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "Swashbuckle.AspNetCore/5.6.3": {
+      "sha512": "UkL9GU0mfaA+7RwYjEaBFvAzL8qNQhNqAeV5uaWUu/Z+fVgvK9FHkGCpTXBqSQeIHuZaIElzxnLDdIqGzuCnVg==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore/5.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Swashbuckle.AspNetCore.props",
+        "swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+        "swashbuckle.aspnetcore.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Swagger/5.6.3": {
+      "sha512": "rn/MmLscjg6WSnTZabojx5DQYle2GjPanSPbCU3Kw8Hy72KyQR3uy8R1Aew5vpNALjfUFm2M/vwUtqdOlzw+GA==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swagger/5.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/5.6.3": {
+      "sha512": "CkhVeod/iLd3ikVTDOwG5sym8BE5xbqGJ15iF3cC7ZPg2kEwDQL4a88xjkzsvC9oOB2ax6B0rK0EgRK+eOBX+w==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggergen/5.6.3",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4029,10 +5080,29 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "System.Collections/4.3.0": {
       "sha512": "3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
       "type": "package",
       "path": "system.collections/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "System.Collections/4.0.11": {
+      "sha512": "YUJGz6eFKqS0V//mLt25vFGrrCvOnsXjlvFQs+KimpwNxug9x0Pzy4PlFMU3Q2IzqAa9G2L4LsK3+9vCBK7oTg==",
+      "type": "package",
+      "path": "system.collections/4.0.11",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4093,7 +5163,19 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
         "system.collections.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.collections.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.collections.4.3.0.nupkg.sha512",
+=======
+        "system.collections.4.0.11.nupkg.sha512",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.collections.nuspec"
       ]
     },
@@ -4120,6 +5202,13 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "System.Collections.NonGeneric/4.3.0": {
       "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
       "type": "package",
@@ -4349,6 +5438,14 @@
         "system.componentmodel.typeconverter.nuspec"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "System.Configuration.ConfigurationManager/4.7.0": {
       "sha512": "/anOTeSZCNNI2zDilogWrZ8pNqCmYbzGNexUnNhjW8k0sHqEZ2nHJBp147jBV3hGYswu5lINpNg1vxR7bnqvVA==",
       "type": "package",
@@ -4372,6 +5469,13 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "System.Data.SqlClient/4.8.5": {
       "sha512": "fRqxut4lrndPHrXD+ht1XRmCL3obuKldm4XjCRYS9p5f7FSR7shBxAwTkDrpFMsHC9BhNgjjmUtiIjvehn5zkg==",
       "type": "package",
@@ -4462,6 +5566,18 @@
       "sha512": "ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
       "type": "package",
       "path": "system.diagnostics.debug/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "System.Diagnostics.Debug/4.0.11": {
+      "sha512": "w5U95fVKHY4G8ASs/K5iK3J5LY+/dLFd4vKejsnI/ZhBsWS9hQakfx3Zr7lRWKg4tAw9r4iktyvsTagWkqYCiw==",
+      "type": "package",
+      "path": "system.diagnostics.debug/4.0.11",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4522,7 +5638,19 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
         "system.diagnostics.debug.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.diagnostics.debug.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.diagnostics.debug.4.3.0.nupkg.sha512",
+=======
+        "system.diagnostics.debug.4.0.11.nupkg.sha512",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.diagnostics.debug.nuspec"
       ]
     },
@@ -4582,10 +5710,29 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "System.Diagnostics.Tools/4.3.0": {
       "sha512": "UUvkJfSYJMM6x527dJg2VyWPSRqIVB0Z7dbjHst1zmwTXz5CcXSYJFWRpuigfbO1Lf7yfZiIaEUesfnl/g5EyA==",
       "type": "package",
       "path": "system.diagnostics.tools/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "System.Diagnostics.Tools/4.0.1": {
+      "sha512": "xBfJ8pnd4C17dWaC9FM6aShzbJcRNMChUMD42I6772KGGrqaFdumwhn9OdM68erj1ueNo3xdQ1EwiFjK5k8p0g==",
+      "type": "package",
+      "path": "system.diagnostics.tools/4.0.1",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4635,7 +5782,19 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
         "system.diagnostics.tools.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.diagnostics.tools.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.diagnostics.tools.4.3.0.nupkg.sha512",
+=======
+        "system.diagnostics.tools.4.0.1.nupkg.sha512",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.diagnostics.tools.nuspec"
       ]
     },
@@ -4678,10 +5837,29 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "System.Dynamic.Runtime/4.3.0": {
       "sha512": "SNVi1E/vfWUAs/WYKhE9+qlS6KqK0YVhnlT0HQtr8pMIA8YX3lwy3uPMownDwdYISBdmAF/2holEIldVp85Wag==",
       "type": "package",
       "path": "system.dynamic.runtime/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "System.Dynamic.Runtime/4.0.11": {
+      "sha512": "db34f6LHYM0U0JpE+sOmjar27BnqTVkbLJhgfwMpTdgTigG/Hna3m2MYVwnFzGGKnEJk2UXFuoVTr8WUbU91/A==",
+      "type": "package",
+      "path": "system.dynamic.runtime/4.0.11",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4745,6 +5923,13 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
         "runtimes/aot/lib/netcore50/System.Dynamic.Runtime.dll",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.dynamic.runtime.4.3.0.nupkg.sha512",
         "system.dynamic.runtime.nuspec"
       ]
@@ -4753,6 +5938,22 @@
       "sha512": "kYdVd2f2PAdFGblzFswE4hkNANJBKRmsfa2X5LG2AcWE1c7/4t0pYae1L8vfZ5xvE2nK/R9JprtToA61OSHWIg==",
       "type": "package",
       "path": "system.globalization/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.dynamic.runtime.4.0.11.nupkg.sha512",
+        "system.dynamic.runtime.nuspec"
+      ]
+    },
+    "System.Globalization/4.0.11": {
+      "sha512": "B95h0YLEL2oSnwF/XjqSWKnwKOy/01VWkNlsCeMTFJLLabflpGV26nK164eRs5GiaRSBGpOxQ3pKoSnnyZN5pg==",
+      "type": "package",
+      "path": "system.globalization/4.0.11",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4813,6 +6014,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.globalization.4.3.0.nupkg.sha512",
         "system.globalization.nuspec"
       ]
@@ -4858,6 +6066,18 @@
         "system.globalization.extensions.nuspec"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.globalization.4.0.11.nupkg.sha512",
+        "system.globalization.nuspec"
+      ]
+    },
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "System.IdentityModel.Tokens.Jwt/6.8.0": {
       "sha512": "5tBCjAub2Bhd5qmcd0WhR5s354e4oLYa//kOWrkX+6/7ZbDDJjMTfwLSOiZ/MMpWdE4DWPLOfTLOq/juj9CKzA==",
       "type": "package",
@@ -4875,10 +6095,29 @@
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "System.IO/4.3.0": {
       "sha512": "3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
       "type": "package",
       "path": "system.io/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "System.IO/4.1.0": {
+      "sha512": "3KlTJceQc3gnGIaHZ7UBZO26SHL1SHE4ddrmiwumFnId+CEHP+O8r386tZKaE6zlk5/mF8vifMBzHj9SaXN+mQ==",
+      "type": "package",
+      "path": "system.io/4.1.0",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4952,6 +6191,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.io.4.3.0.nupkg.sha512",
         "system.io.nuspec"
       ]
@@ -4960,6 +6206,22 @@
       "sha512": "3wEMARTnuio+ulnvi+hkRNROYwa1kylvYahhcLk4HSoVdl+xxTFVeVlYOfLwrDPImGls0mDqbMhrza8qnWPTdA==",
       "type": "package",
       "path": "system.io.filesystem/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.io.4.1.0.nupkg.sha512",
+        "system.io.nuspec"
+      ]
+    },
+    "System.IO.FileSystem/4.0.1": {
+      "sha512": "IBErlVq5jOggAD69bg1t0pJcHaDbJbWNUZTPI96fkYWzwYbN6D9wRHMULLDd9dHsl7C2YsxXL31LMfPI1SWt8w==",
+      "type": "package",
+      "path": "system.io.filesystem/4.0.1",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4990,6 +6252,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.io.filesystem.4.3.0.nupkg.sha512",
         "system.io.filesystem.nuspec"
       ]
@@ -4998,6 +6267,22 @@
       "sha512": "6QOb2XFLch7bEc4lIcJH49nJN2HV+OC3fHDgsLVsBVBk3Y4hFAnOBGzJ2lUu7CyDDFo9IBWkSsnbkT6IBwwiMw==",
       "type": "package",
       "path": "system.io.filesystem.primitives/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.io.filesystem.4.0.1.nupkg.sha512",
+        "system.io.filesystem.nuspec"
+      ]
+    },
+    "System.IO.FileSystem.Primitives/4.0.1": {
+      "sha512": "kWkKD203JJKxJeE74p8aF8y4Qc9r9WQx4C0cHzHPrY3fv/L/IhWnyCHaFJ3H1QPOH6A93whlQ2vG5nHlBDvzWQ==",
+      "type": "package",
+      "path": "system.io.filesystem.primitives/4.0.1",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5029,6 +6314,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.io.filesystem.primitives.4.3.0.nupkg.sha512",
         "system.io.filesystem.primitives.nuspec"
       ]
@@ -5037,6 +6329,22 @@
       "sha512": "5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
       "type": "package",
       "path": "system.linq/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.io.filesystem.primitives.4.0.1.nupkg.sha512",
+        "system.io.filesystem.primitives.nuspec"
+      ]
+    },
+    "System.Linq/4.1.0": {
+      "sha512": "bQ0iYFOQI0nuTnt+NQADns6ucV4DUvMdwN6CbkB1yj8i7arTGiTN5eok1kQwdnnNWSDZfIUySQY+J3d5KjWn0g==",
+      "type": "package",
+      "path": "system.linq/4.1.0",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5101,6 +6409,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.linq.4.3.0.nupkg.sha512",
         "system.linq.nuspec"
       ]
@@ -5109,6 +6424,22 @@
       "sha512": "PGKkrd2khG4CnlyJwxwwaWWiSiWFNBGlgXvJpeO0xCXrZ89ODrQ6tjEWS/kOqZ8GwEOUATtKtzp1eRgmYNfclg==",
       "type": "package",
       "path": "system.linq.expressions/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.linq.4.1.0.nupkg.sha512",
+        "system.linq.nuspec"
+      ]
+    },
+    "System.Linq.Expressions/4.1.0": {
+      "sha512": "I+y02iqkgmCAyfbqOmSDOgqdZQ5tTj80Akm5BPSS8EeB0VGWdy6X1KCoYe8Pk6pwDoAKZUOdLVxnTJcExiv5zw==",
+      "type": "package",
+      "path": "system.linq.expressions/4.1.0",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5185,6 +6516,13 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
         "runtimes/aot/lib/netcore50/System.Linq.Expressions.dll",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.linq.expressions.4.3.0.nupkg.sha512",
         "system.linq.expressions.nuspec"
       ]
@@ -5193,6 +6531,22 @@
       "sha512": "bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
       "type": "package",
       "path": "system.objectmodel/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.linq.expressions.4.1.0.nupkg.sha512",
+        "system.linq.expressions.nuspec"
+      ]
+    },
+    "System.ObjectModel/4.0.12": {
+      "sha512": "tAgJM1xt3ytyMoW4qn4wIqgJYm7L7TShRZG4+Q4Qsi2PCcj96pXN7nRywS9KkB3p/xDUjc2HSwP9SROyPYDYKQ==",
+      "type": "package",
+      "path": "system.objectmodel/4.0.12",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5255,6 +6609,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.objectmodel.4.3.0.nupkg.sha512",
         "system.objectmodel.nuspec"
       ]
@@ -5263,6 +6624,22 @@
       "sha512": "KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "type": "package",
       "path": "system.reflection/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.objectmodel.4.0.12.nupkg.sha512",
+        "system.objectmodel.nuspec"
+      ]
+    },
+    "System.Reflection/4.1.0": {
+      "sha512": "JCKANJ0TI7kzoQzuwB/OoJANy1Lg338B6+JVacPl4TpUwi3cReg3nMLplMq2uqYfHFQpKIlHAUVAJlImZz/4ng==",
+      "type": "package",
+      "path": "system.reflection/4.1.0",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5336,6 +6713,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.reflection.4.3.0.nupkg.sha512",
         "system.reflection.nuspec"
       ]
@@ -5344,12 +6728,35 @@
       "sha512": "228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
       "type": "package",
       "path": "system.reflection.emit/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.reflection.4.1.0.nupkg.sha512",
+        "system.reflection.nuspec"
+      ]
+    },
+    "System.Reflection.Emit/4.0.1": {
+      "sha512": "P2wqAj72fFjpP6wb9nSfDqNBMab+2ovzSDzUZK7MVIm54tBJEPr9jWfSjjoTpPwj1LeKcmX3vr0ttyjSSFM47g==",
+      "type": "package",
+      "path": "system.reflection.emit/4.0.1",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "lib/monotouch10/_._",
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Emit.dll",
@@ -5358,6 +6765,18 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.dll",
+        "lib/netstandard1.3/System.Reflection.Emit.dll",
+        "lib/xamarinmac20/_._",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "ref/MonoAndroid10/_._",
         "ref/net45/_._",
         "ref/netstandard1.1/System.Reflection.Emit.dll",
@@ -5372,6 +6791,13 @@
         "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
         "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
         "ref/xamarinmac20/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.reflection.emit.4.3.0.nupkg.sha512",
         "system.reflection.emit.nuspec"
       ]
@@ -5380,24 +6806,68 @@
       "sha512": "59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
       "type": "package",
       "path": "system.reflection.emit.ilgeneration/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.reflection.emit.4.0.1.nupkg.sha512",
+        "system.reflection.emit.nuspec"
+      ]
+    },
+    "System.Reflection.Emit.ILGeneration/4.0.1": {
+      "sha512": "Ov6dU8Bu15Bc7zuqttgHF12J5lwSWyTf1S+FJouUXVMSqImLZzYaQ+vRr1rQ0OZ0HqsrwWl4dsKHELckQkVpgA==",
+      "type": "package",
+      "path": "system.reflection.emit.ilgeneration/4.0.1",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
+<<<<<<< HEAD
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
+=======
+<<<<<<< HEAD
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+=======
+<<<<<<< HEAD
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Emit.ILGeneration.dll",
         "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll",
         "lib/portable-net45+wp8/_._",
         "lib/wp80/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "ref/net45/_._",
         "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll",
         "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.xml",
@@ -5412,6 +6882,13 @@
         "ref/netstandard1.0/zh-hant/System.Reflection.Emit.ILGeneration.xml",
         "ref/portable-net45+wp8/_._",
         "ref/wp80/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
@@ -5425,24 +6902,69 @@
       "sha512": "oadVHGSMsTmZsAF864QYN1t1QzZjIcuKU3l2S9cZOwDdDueNTrqq1yRj7koFfIGEnKpt6NjpL3rOzRhs4ryOgA==",
       "type": "package",
       "path": "system.reflection.emit.lightweight/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "runtimes/aot/lib/netcore50/_._",
+        "system.reflection.emit.ilgeneration.4.0.1.nupkg.sha512",
+        "system.reflection.emit.ilgeneration.nuspec"
+      ]
+    },
+    "System.Reflection.Emit.Lightweight/4.0.1": {
+      "sha512": "sSzHHXueZ5Uh0OLpUQprhr+ZYJrLPA2Cmr4gn0wj9+FftNKXx8RIMKvO9qnjk2ebPYUjZ+F2ulGdPOsvj+MEjA==",
+      "type": "package",
+      "path": "system.reflection.emit.lightweight/4.0.1",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
+<<<<<<< HEAD
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
+=======
+<<<<<<< HEAD
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+=======
+<<<<<<< HEAD
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Emit.Lightweight.dll",
         "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll",
         "lib/portable-net45+wp8/_._",
         "lib/wp80/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "ref/net45/_._",
         "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll",
         "ref/netstandard1.0/System.Reflection.Emit.Lightweight.xml",
@@ -5457,6 +6979,13 @@
         "ref/netstandard1.0/zh-hant/System.Reflection.Emit.Lightweight.xml",
         "ref/portable-net45+wp8/_._",
         "ref/wp80/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
@@ -5470,6 +6999,23 @@
       "sha512": "rJkrJD3kBI5B712aRu4DpSIiHRtr6QlfZSQsb0hYHrDCZORXCFjQfoipo2LaMUHoT9i1B7j7MnfaEKWDFmFQNQ==",
       "type": "package",
       "path": "system.reflection.extensions/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "runtimes/aot/lib/netcore50/_._",
+        "system.reflection.emit.lightweight.4.0.1.nupkg.sha512",
+        "system.reflection.emit.lightweight.nuspec"
+      ]
+    },
+    "System.Reflection.Extensions/4.0.1": {
+      "sha512": "GYrtRsZcMuHF3sbmRHfMYpvxZoIN2bQGrYGerUiWLEkqdEUQZhH3TRSaC/oI4wO0II1RKBPlpIa1TOMxIcOOzQ==",
+      "type": "package",
+      "path": "system.reflection.extensions/4.0.1",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5519,7 +7065,19 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
         "system.reflection.extensions.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.reflection.extensions.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.reflection.extensions.4.3.0.nupkg.sha512",
+=======
+        "system.reflection.extensions.4.0.1.nupkg.sha512",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.reflection.extensions.nuspec"
       ]
     },
@@ -5544,10 +7102,29 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "System.Reflection.Primitives/4.3.0": {
       "sha512": "5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
       "type": "package",
       "path": "system.reflection.primitives/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "System.Reflection.Primitives/4.0.1": {
+      "sha512": "4inTox4wTBaDhB7V3mPvp9XlCbeGYWVEM9/fXALd52vNEAVisc1BoVWQPuUuD0Ga//dNbA/WeMy9u9mzLxGTHQ==",
+      "type": "package",
+      "path": "system.reflection.primitives/4.0.1",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5597,6 +7174,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.reflection.primitives.4.3.0.nupkg.sha512",
         "system.reflection.primitives.nuspec"
       ]
@@ -5605,6 +7189,22 @@
       "sha512": "7u6ulLcZbyxB5Gq0nMkQttcdBTx57ibzw+4IOXEfR+sXYQoHvjW5LTLyNr8O22UIMrqYbchJQJnos4eooYzYJA==",
       "type": "package",
       "path": "system.reflection.typeextensions/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.reflection.primitives.4.0.1.nupkg.sha512",
+        "system.reflection.primitives.nuspec"
+      ]
+    },
+    "System.Reflection.TypeExtensions/4.1.0": {
+      "sha512": "tsQ/ptQ3H5FYfON8lL4MxRk/8kFyE0A+tGPXmVP967cT/gzLHYxIejIYSxp4JmIeFHVP78g/F2FE1mUUTbDtrg==",
+      "type": "package",
+      "path": "system.reflection.typeextensions/4.1.0",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5651,6 +7251,13 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
         "runtimes/aot/lib/netcore50/System.Reflection.TypeExtensions.dll",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.reflection.typeextensions.4.3.0.nupkg.sha512",
         "system.reflection.typeextensions.nuspec"
       ]
@@ -5659,6 +7266,22 @@
       "sha512": "/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
       "type": "package",
       "path": "system.resources.resourcemanager/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.reflection.typeextensions.4.1.0.nupkg.sha512",
+        "system.reflection.typeextensions.nuspec"
+      ]
+    },
+    "System.Resources.ResourceManager/4.0.1": {
+      "sha512": "TxwVeUNoTgUOdQ09gfTjvW411MF+w9MBYL7AtNVc+HtBCFlutPLhUCdZjNkjbhj3bNQWMdHboF0KIWEOjJssbA==",
+      "type": "package",
+      "path": "system.resources.resourcemanager/4.0.1",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5708,6 +7331,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.resources.resourcemanager.4.3.0.nupkg.sha512",
         "system.resources.resourcemanager.nuspec"
       ]
@@ -5716,6 +7346,22 @@
       "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
       "type": "package",
       "path": "system.runtime/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.resources.resourcemanager.4.0.1.nupkg.sha512",
+        "system.resources.resourcemanager.nuspec"
+      ]
+    },
+    "System.Runtime/4.1.0": {
+      "sha512": "v6c/4Yaa9uWsq+JMhnOFewrYkgdNHNG2eMKuNqRn8P733rNXeRCGvV5FkkjBXn2dbVkPXOsO0xjsEeM1q2zC0g==",
+      "type": "package",
+      "path": "system.runtime/4.1.0",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5800,7 +7446,19 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
         "system.runtime.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.runtime.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.runtime.4.3.0.nupkg.sha512",
+=======
+        "system.runtime.4.1.0.nupkg.sha512",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.runtime.nuspec"
       ]
     },
@@ -5865,10 +7523,29 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "System.Runtime.Extensions/4.3.0": {
       "sha512": "guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
       "type": "package",
       "path": "system.runtime.extensions/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "System.Runtime.Extensions/4.1.0": {
+      "sha512": "CUOHjTT/vgP0qGW22U4/hDlOqXmcPq5YicBaXdUR2UiUoLwBT+olO6we4DVbq57jeX5uXH2uerVZhf0qGj+sVQ==",
+      "type": "package",
+      "path": "system.runtime.extensions/4.1.0",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5942,6 +7619,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.runtime.extensions.4.3.0.nupkg.sha512",
         "system.runtime.extensions.nuspec"
       ]
@@ -5950,6 +7634,22 @@
       "sha512": "OKiSUN7DmTWeYb3l51A7EYaeNMnvxwE249YtZz7yooT4gOZhmTjIn48KgSsw2k2lYdLgTKNJw/ZIfSElwDRVgg==",
       "type": "package",
       "path": "system.runtime.handles/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.runtime.extensions.4.1.0.nupkg.sha512",
+        "system.runtime.extensions.nuspec"
+      ]
+    },
+    "System.Runtime.Handles/4.0.1": {
+      "sha512": "nCJvEKguXEvk2ymk1gqj625vVnlK3/xdGzx0vOKicQkoquaTBJTP13AIYkocSUwHCLNBwUbXTqTWGDxBTWpt7g==",
+      "type": "package",
+      "path": "system.runtime.handles/4.0.1",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5980,6 +7680,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.runtime.handles.4.3.0.nupkg.sha512",
         "system.runtime.handles.nuspec"
       ]
@@ -5988,6 +7695,22 @@
       "sha512": "uv1ynXqiMK8mp1GM3jDqPCFN66eJ5w5XNomaK2XD+TuCroNTLFGeZ+WCmBMcBDyTFKou3P6cR6J/QsaqDp7fGQ==",
       "type": "package",
       "path": "system.runtime.interopservices/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.runtime.handles.4.0.1.nupkg.sha512",
+        "system.runtime.handles.nuspec"
+      ]
+    },
+    "System.Runtime.InteropServices/4.1.0": {
+      "sha512": "16eu3kjHS633yYdkjwShDHZLRNMKVi/s0bY8ODiqJ2RfMhDMAwxZaUaWVnZ2P71kr/or+X9o/xFWtNqz8ivieQ==",
+      "type": "package",
+      "path": "system.runtime.interopservices/4.1.0",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5997,7 +7720,18 @@
         "lib/MonoTouch10/_._",
         "lib/net45/_._",
         "lib/net462/System.Runtime.InteropServices.dll",
+<<<<<<< HEAD
         "lib/net463/System.Runtime.InteropServices.dll",
+=======
+<<<<<<< HEAD
+        "lib/net463/System.Runtime.InteropServices.dll",
+=======
+<<<<<<< HEAD
+        "lib/net463/System.Runtime.InteropServices.dll",
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "lib/portable-net45+win8+wpa81/_._",
         "lib/win8/_._",
         "lib/wpa81/_._",
@@ -6009,7 +7743,18 @@
         "ref/MonoTouch10/_._",
         "ref/net45/_._",
         "ref/net462/System.Runtime.InteropServices.dll",
+<<<<<<< HEAD
         "ref/net463/System.Runtime.InteropServices.dll",
+=======
+<<<<<<< HEAD
+        "ref/net463/System.Runtime.InteropServices.dll",
+=======
+<<<<<<< HEAD
+        "ref/net463/System.Runtime.InteropServices.dll",
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "ref/netcore50/System.Runtime.InteropServices.dll",
         "ref/netcore50/System.Runtime.InteropServices.xml",
         "ref/netcore50/de/System.Runtime.InteropServices.xml",
@@ -6021,7 +7766,18 @@
         "ref/netcore50/ru/System.Runtime.InteropServices.xml",
         "ref/netcore50/zh-hans/System.Runtime.InteropServices.xml",
         "ref/netcore50/zh-hant/System.Runtime.InteropServices.xml",
+<<<<<<< HEAD
         "ref/netcoreapp1.1/System.Runtime.InteropServices.dll",
+=======
+<<<<<<< HEAD
+        "ref/netcoreapp1.1/System.Runtime.InteropServices.dll",
+=======
+<<<<<<< HEAD
+        "ref/netcoreapp1.1/System.Runtime.InteropServices.dll",
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "ref/netstandard1.1/System.Runtime.InteropServices.dll",
         "ref/netstandard1.1/System.Runtime.InteropServices.xml",
         "ref/netstandard1.1/de/System.Runtime.InteropServices.xml",
@@ -6073,6 +7829,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.runtime.interopservices.4.3.0.nupkg.sha512",
         "system.runtime.interopservices.nuspec"
       ]
@@ -6167,6 +7930,22 @@
       "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.runtime.interopservices.4.1.0.nupkg.sha512",
+        "system.runtime.interopservices.nuspec"
+      ]
+    },
+    "System.Runtime.Serialization.Primitives/4.1.1": {
+      "sha512": "HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg==",
+      "type": "package",
+      "path": "system.runtime.serialization.primitives/4.1.1",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6232,7 +8011,19 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
         "runtimes/aot/lib/netcore50/System.Runtime.Serialization.Primitives.dll",
+<<<<<<< HEAD
         "system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+=======
+        "system.runtime.serialization.primitives.4.1.1.nupkg.sha512",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.runtime.serialization.primitives.nuspec"
       ]
     },
@@ -6471,10 +8262,29 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "System.Text.Encoding/4.3.0": {
       "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package",
       "path": "system.text.encoding/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "System.Text.Encoding/4.0.11": {
+      "sha512": "U3gGeMlDZXxCEiY4DwVLSacg+DFWCvoiX+JThA/rvw37Sqrku7sEFeVBBBMBnfB6FeZHsyDx85HlKL19x0HtZA==",
+      "type": "package",
+      "path": "system.text.encoding/4.0.11",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6535,7 +8345,19 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
         "system.text.encoding.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.text.encoding.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.text.encoding.4.3.0.nupkg.sha512",
+=======
+        "system.text.encoding.4.0.11.nupkg.sha512",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.text.encoding.nuspec"
       ]
     },
@@ -6579,10 +8401,29 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "System.Text.Encoding.Extensions/4.3.0": {
       "sha512": "YVMK0Bt/A43RmwizJoZ22ei2nmrhobgeiYwFzC4YAN+nue8RF6djXDMog0UCn+brerQoYVyaS+ghy9P/MUVcmw==",
       "type": "package",
       "path": "system.text.encoding.extensions/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "System.Text.Encoding.Extensions/4.0.11": {
+      "sha512": "jtbiTDtvfLYgXn8PTfWI+SiBs51rrmO4AAckx4KR6vFK9Wzf6tI8kcRdsYQNwriUeQ1+CtQbM1W4cMbLXnj/OQ==",
+      "type": "package",
+      "path": "system.text.encoding.extensions/4.0.11",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6643,6 +8484,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.text.encoding.extensions.4.3.0.nupkg.sha512",
         "system.text.encoding.extensions.nuspec"
       ]
@@ -6651,6 +8499,22 @@
       "sha512": "RpT2DA+L660cBt1FssIE9CAGpLFdFPuheB7pLpKpn6ZXNby7jDERe8Ua/Ne2xGiwLVG2JOqziiaVCGDon5sKFA==",
       "type": "package",
       "path": "system.text.regularexpressions/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.text.encoding.extensions.4.0.11.nupkg.sha512",
+        "system.text.encoding.extensions.nuspec"
+      ]
+    },
+    "System.Text.RegularExpressions/4.1.0": {
+      "sha512": "i88YCXpRTjCnoSQZtdlHkAOx4KNNik4hMy83n0+Ftlb7jvV6ZiZWMpnEZHhjBp6hQVh8gWd/iKNPzlPF7iyA2g==",
+      "type": "package",
+      "path": "system.text.regularexpressions/4.1.0",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6685,7 +8549,18 @@
         "ref/netcore50/ru/System.Text.RegularExpressions.xml",
         "ref/netcore50/zh-hans/System.Text.RegularExpressions.xml",
         "ref/netcore50/zh-hant/System.Text.RegularExpressions.xml",
+<<<<<<< HEAD
         "ref/netcoreapp1.1/System.Text.RegularExpressions.dll",
+=======
+<<<<<<< HEAD
+        "ref/netcoreapp1.1/System.Text.RegularExpressions.dll",
+=======
+<<<<<<< HEAD
+        "ref/netcoreapp1.1/System.Text.RegularExpressions.dll",
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "ref/netstandard1.0/System.Text.RegularExpressions.dll",
         "ref/netstandard1.0/System.Text.RegularExpressions.xml",
         "ref/netstandard1.0/de/System.Text.RegularExpressions.xml",
@@ -6727,6 +8602,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.text.regularexpressions.4.3.0.nupkg.sha512",
         "system.text.regularexpressions.nuspec"
       ]
@@ -6735,6 +8617,22 @@
       "sha512": "VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
       "type": "package",
       "path": "system.threading/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.text.regularexpressions.4.1.0.nupkg.sha512",
+        "system.text.regularexpressions.nuspec"
+      ]
+    },
+    "System.Threading/4.0.11": {
+      "sha512": "N+3xqIcg3VDKyjwwCGaZ9HawG9aC6cSDI+s7ROma310GQo8vilFZa86hqKppwTHleR/G0sfOzhvgnUxWCR/DrQ==",
+      "type": "package",
+      "path": "system.threading/4.0.11",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6798,6 +8696,13 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
         "runtimes/aot/lib/netcore50/System.Threading.dll",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.threading.4.3.0.nupkg.sha512",
         "system.threading.nuspec"
       ]
@@ -6806,6 +8711,22 @@
       "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "type": "package",
       "path": "system.threading.tasks/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.threading.4.0.11.nupkg.sha512",
+        "system.threading.nuspec"
+      ]
+    },
+    "System.Threading.Tasks/4.0.11": {
+      "sha512": "k1S4Gc6IGwtHGT8188RSeGaX86Qw/wnrgNLshJvsdNUOPP9etMmo8S07c+UlOAx4K/xLuN9ivA1bD0LVurtIxQ==",
+      "type": "package",
+      "path": "system.threading.tasks/4.0.11",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6866,6 +8787,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
@@ -6874,6 +8802,22 @@
       "sha512": "npvJkVKl5rKXrtl1Kkm6OhOUaYGEiF9wFbppFRWSMoApKzt2PiPHT2Bb8a5sAWxprvdOAtvaARS9QYMznEUtug==",
       "type": "package",
       "path": "system.threading.tasks.extensions/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.threading.tasks.4.0.11.nupkg.sha512",
+        "system.threading.tasks.nuspec"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.0.0": {
+      "sha512": "pH4FZDsZQ/WmgJtN4LWYmRdJAEeVkyriSwrv2Teoe5FOU0Yxlb6II6GL8dBPOfRmutHGATduj3ooMt7dJ2+i+w==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.0.0",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6883,7 +8827,19 @@
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
         "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+<<<<<<< HEAD
         "system.threading.tasks.extensions.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.threading.tasks.extensions.4.3.0.nupkg.sha512",
+=======
+<<<<<<< HEAD
+        "system.threading.tasks.extensions.4.3.0.nupkg.sha512",
+=======
+        "system.threading.tasks.extensions.4.0.0.nupkg.sha512",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.threading.tasks.extensions.nuspec"
       ]
     },
@@ -6908,10 +8864,29 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "System.Xml.ReaderWriter/4.3.0": {
       "sha512": "GrprA+Z0RUXaR4N7/eW71j1rgMnEnEVlgii49GZyAjTH7uliMnrOU3HNFBr6fEDBCJCIdlVNq9hHbaDR621XBA==",
       "type": "package",
       "path": "system.xml.readerwriter/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "System.Xml.ReaderWriter/4.0.11": {
+      "sha512": "ZIiLPsf67YZ9zgr31vzrFaYQqxRPX9cVHjtPSnmx4eN6lbS/yEyYNr2vs1doGDEscF0tjCZFsk9yUg1sC9e8tg==",
+      "type": "package",
+      "path": "system.xml.readerwriter/4.0.11",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6920,7 +8895,18 @@
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/net45/_._",
+<<<<<<< HEAD
         "lib/net46/System.Xml.ReaderWriter.dll",
+=======
+<<<<<<< HEAD
+        "lib/net46/System.Xml.ReaderWriter.dll",
+=======
+<<<<<<< HEAD
+        "lib/net46/System.Xml.ReaderWriter.dll",
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "lib/netcore50/System.Xml.ReaderWriter.dll",
         "lib/netstandard1.3/System.Xml.ReaderWriter.dll",
         "lib/portable-net45+win8+wp8+wpa81/_._",
@@ -6934,7 +8920,18 @@
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/net45/_._",
+<<<<<<< HEAD
         "ref/net46/System.Xml.ReaderWriter.dll",
+=======
+<<<<<<< HEAD
+        "ref/net46/System.Xml.ReaderWriter.dll",
+=======
+<<<<<<< HEAD
+        "ref/net46/System.Xml.ReaderWriter.dll",
+=======
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "ref/netcore50/System.Xml.ReaderWriter.dll",
         "ref/netcore50/System.Xml.ReaderWriter.xml",
         "ref/netcore50/de/System.Xml.ReaderWriter.xml",
@@ -6976,6 +8973,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.xml.readerwriter.4.3.0.nupkg.sha512",
         "system.xml.readerwriter.nuspec"
       ]
@@ -6984,6 +8988,22 @@
       "sha512": "5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "type": "package",
       "path": "system.xml.xdocument/4.3.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.xml.readerwriter.4.0.11.nupkg.sha512",
+        "system.xml.readerwriter.nuspec"
+      ]
+    },
+    "System.Xml.XDocument/4.0.11": {
+      "sha512": "Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
+      "type": "package",
+      "path": "system.xml.xdocument/4.0.11",
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7046,6 +9066,13 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
@@ -7089,6 +9116,18 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "system.xml.xdocument.4.0.11.nupkg.sha512",
+        "system.xml.xdocument.nuspec"
+      ]
+    },
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
     "dotnetapp/1.0.0": {
       "type": "project",
       "path": "../dotnetapp.csproj",
@@ -7186,6 +9225,13 @@
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
       }
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
   },
   "logs": [
     {
@@ -7219,4 +9265,13 @@
       ]
     }
   ]
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+  }
+>>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
+>>>>>>> 2cb12f9a00fcc76537dd355d762a32db909b705c
 }
