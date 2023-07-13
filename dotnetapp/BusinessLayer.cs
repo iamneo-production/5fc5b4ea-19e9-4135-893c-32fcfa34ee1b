@@ -44,7 +44,17 @@ namespace dotnetapp
         {
             return data_Access_layer.saveAdmin(user);
         }
-        //Admin Controller
+
+        //Review Controller
+        public string AddReview(ReviewModel review)
+        {
+            return data_Access_layer.AddReview(review);
+        }
+        public List<ReviewModel> GetReviews()
+        {
+            return data_Access_layer.GetReviews();
+        }
+     //Admin Controller
          public int getDocumentId()
         {
             return data_Access_layer.getDocumentId();
@@ -72,7 +82,18 @@ namespace dotnetapp
         {
             return data_Access_layer.deleteDocuments(documentId);
         }
-
+         public List<LoanModel> getAllLoans()
+        {
+            return data_Access_layer.getAllLoans();
+        }
+        public int getLoans()
+        {
+            return data_Access_layer.getLoans();
+        }
+        public string approveLoan(int loanId, int status)
+        {
+            return data_Access_layer.approveLoan(loanId, status);
+        }
 
 
         //LoanController
