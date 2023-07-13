@@ -3,20 +3,30 @@
 <<<<<<< HEAD
   "dgSpecHash": "hN6YUoImnHMsxv8V+9FLDWBzpJCJLQBy2b9tRE0rBAu0Z+h46fXv5KuFQCjHvlHuT7q1A76C6+rQYPKNYO2yXQ==",
 =======
+<<<<<<< HEAD
+  "dgSpecHash": "hN6YUoImnHMsxv8V+9FLDWBzpJCJLQBy2b9tRE0rBAu0Z+h46fXv5KuFQCjHvlHuT7q1A76C6+rQYPKNYO2yXQ==",
+=======
   "dgSpecHash": "kYWkhbZkG53JqXkfK71x26Yvn1We3yCr+kmk9jUmH8Y3y/pogIwgRi0Q6S3v0z/cmmZAUROPfDEFS6mhcoxdZg==",
 >>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
   "success": true,
   "projectFilePath": "/home/coder/project/workspace/dotnetapp/TestProject/TestProject.csproj",
   "expectedPackageFiles": [
     "/home/coder/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/home/coder/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
     "/home/coder/.nuget/packages/microsoft.aspnet.cors/5.2.9/microsoft.aspnet.cors.5.2.9.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.aspnet.webapi.client/5.2.9/microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.aspnet.webapi.core/5.2.9/microsoft.aspnet.webapi.core.5.2.9.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.aspnet.webapi.cors/5.2.9/microsoft.aspnet.webapi.cors.5.2.9.nupkg.sha512",
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
     "/home/coder/.nuget/packages/microsoft.codecoverage/17.1.0/microsoft.codecoverage.17.1.0.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
@@ -48,8 +58,12 @@
 <<<<<<< HEAD
     "/home/coder/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
 =======
+<<<<<<< HEAD
+    "/home/coder/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+=======
     "/home/coder/.nuget/packages/microsoft.netcore.targets/1.0.1/microsoft.netcore.targets.1.0.1.nupkg.sha512",
 >>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
     "/home/coder/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.testplatform.objectmodel/17.1.0/microsoft.testplatform.objectmodel.17.1.0.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.testplatform.testhost/17.1.0/microsoft.testplatform.testhost.17.1.0.nupkg.sha512",
@@ -61,24 +75,38 @@
     "/home/coder/.nuget/packages/newtonsoft.json/10.0.1/newtonsoft.json.10.0.1.nupkg.sha512",
     "/home/coder/.nuget/packages/newtonsoft.json.bson/1.0.1/newtonsoft.json.bson.1.0.1.nupkg.sha512",
 =======
+<<<<<<< HEAD
+    "/home/coder/.nuget/packages/newtonsoft.json/10.0.1/newtonsoft.json.10.0.1.nupkg.sha512",
+    "/home/coder/.nuget/packages/newtonsoft.json.bson/1.0.1/newtonsoft.json.bson.1.0.1.nupkg.sha512",
+=======
     "/home/coder/.nuget/packages/newtonsoft.json/9.0.1/newtonsoft.json.9.0.1.nupkg.sha512",
 >>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
     "/home/coder/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
     "/home/coder/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
     "/home/coder/.nuget/packages/nunit.analyzers/3.3.0/nunit.analyzers.3.3.0.nupkg.sha512",
     "/home/coder/.nuget/packages/nunit3testadapter/4.2.1/nunit3testadapter.4.2.1.nupkg.sha512",
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
     "/home/coder/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/home/coder/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/home/coder/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
     "/home/coder/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
     "/home/coder/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.collections.nongeneric/4.3.0/system.collections.nongeneric.4.3.0.nupkg.sha512",
@@ -121,6 +149,8 @@
     "/home/coder/.nuget/packages/system.runtime.numerics/4.3.0/system.runtime.numerics.4.3.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.runtime.serialization.formatters/4.3.0/system.runtime.serialization.formatters.4.3.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.runtime.serialization.primitives/4.3.0/system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+<<<<<<< HEAD
+=======
 =======
     "/home/coder/.nuget/packages/system.collections/4.0.11/system.collections.4.0.11.nupkg.sha512",
     "/home/coder/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
@@ -156,12 +186,16 @@
     "/home/coder/.nuget/packages/system.runtime.interopservices/4.1.0/system.runtime.interopservices.4.1.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.runtime.serialization.primitives/4.1.1/system.runtime.serialization.primitives.4.1.1.nupkg.sha512",
 >>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
     "/home/coder/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.security.cryptography.protecteddata/4.7.0/system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.security.permissions/4.7.0/system.security.permissions.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
     "/home/coder/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.text.encoding.codepages/4.7.0/system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.text.encoding.extensions/4.3.0/system.text.encoding.extensions.4.3.0.nupkg.sha512",
@@ -206,6 +240,8 @@
       ]
     }
   ]
+<<<<<<< HEAD
+=======
 =======
     "/home/coder/.nuget/packages/system.text.encoding/4.0.11/system.text.encoding.4.0.11.nupkg.sha512",
     "/home/coder/.nuget/packages/system.text.encoding.codepages/4.7.0/system.text.encoding.codepages.4.7.0.nupkg.sha512",
@@ -220,4 +256,5 @@
   ],
   "logs": []
 >>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
 }

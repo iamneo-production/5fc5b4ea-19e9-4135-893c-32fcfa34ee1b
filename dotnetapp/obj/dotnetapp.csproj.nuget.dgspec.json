@@ -39,12 +39,18 @@
           "targetAlias": "net6.0",
           "dependencies": {
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
             "Microsoft.AspNet.WebApi.Cors": {
               "target": "Package",
               "version": "[5.2.9, )"
             },
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -75,12 +81,18 @@
               "target": "Package",
               "version": "[5.6.3, )"
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
             },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.5, )"
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> de84ed2f8599b644dae39e85d05552d813bd3955
+>>>>>>> 66333332c2a70abbaf29c5d27173eb1a4eec7640
             }
           },
           "imports": [
