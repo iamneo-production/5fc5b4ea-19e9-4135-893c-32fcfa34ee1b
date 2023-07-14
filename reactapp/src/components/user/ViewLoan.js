@@ -59,6 +59,26 @@ export default function LoanDetails() {
   
   };
 
+  const renderButtonLabel = () => {
+    if (status === 1) {
+      return "Accepted";
+    } else if (status === 2) {
+      return "Rejected";
+    } else {
+      return "Pending";
+    }
+  };
+
+  const renderButtonVariant = () => {
+    if (status === 1) {
+      return "success";
+    } else if (status === 2) {
+      return "danger";
+    } else {
+      return "warning";
+    }
+  };
+
   
   
   return (
@@ -116,10 +136,9 @@ export default function LoanDetails() {
              <td>
                <div className="loan-status">
                  <div>
-                   <Button variant={status === 1 ? "success" : (status === 2 ? "danger" : "warning")}>
-                                  {status === 1 ? "Accepted" : (status === 2 ? "Rejected" : "Pending")}
-                  </Button>
-
+                 <Button variant={renderButtonVariant()}>
+                      {renderButtonLabel()}
+                    </Button>
                  </div>
                </div>
              </td>
