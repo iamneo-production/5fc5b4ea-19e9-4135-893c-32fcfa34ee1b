@@ -9,7 +9,7 @@ export default function GetLoans() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [data, setData] = useState([]);
   const [loans, setLoans] = useState([]);
-  //const [profile, setProfile] = useState({ "username": '', "applicantAddress": '', "mobileNumber": '', "loanId": '', "email": '', "emi": '' });
+  
 
   useEffect(() => {
   fetchAppliedLoans();
