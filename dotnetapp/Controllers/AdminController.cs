@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using dotnetapp.Models;
 using System.Data.SqlClient;
 using System.Data;
+using Microsoft.AspNetCore.Http;
 namespace dotnetapp.Controllers
 {
     [Route("api/")]
@@ -24,18 +25,38 @@ namespace dotnetapp.Controllers
             return Ok(bussiness_layer.getAllLoans());
         }
 
+        [HttpGet]
+        [Route("user/getDocumentId")]
+        public IActionResult getDocumentId()
+        {
+            return Ok(bussiness_layer.getDocumentId());
+        }
+
+        [HttpGet]
+        [Route("user/getLoanId")]
+        public IActionResult getLoans()
+        {
+            return Ok(bussiness_layer.getLoans());
+        }
+
         [HttpPut("admin/generateSchedule/{loanId}")]
-        public IActionResult approveloan(int loanId, string status)
+        public IActionResult approveloan(int loanId, int status)
         {
             return Ok(bussiness_layer.approveLoan(loanId, status));
         }
 
-        [HttpPost("user/addDocuments")]
-        public string addDocuments(DocumentModel data)
+        [HttpPost("user/addDocuments/")]
+        public string addDocuments([FromForm]IFormCollection data, [FromForm] IFormFile file)
         {
-            return bussiness_layer.addDocuments(data);
+            return bussiness_layer.addDocuments(data,file);
         }
 
+        [HttpPut("admin/generateEmi/{loanId}")]
+        public IActionResult approveEmi(int loanId)
+        {
+            return Ok(bussiness_layer.approveEmi(loanId));
+        }
+        
         [HttpPut("user/editDocuments/{documentId}")]
         public string editDocuments(int documentId, DocumentModel data)
         {
@@ -58,6 +79,3 @@ namespace dotnetapp.Controllers
 
     }
 }
-
-
-

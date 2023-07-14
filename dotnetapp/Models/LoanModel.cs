@@ -17,6 +17,6 @@ namespace dotnetapp.Models
         public string applicantSalary { get; set; }
         public string loanAmountRequired { get; set; }
         public string loanRepaymentMonths { get; set; }
-        public string status { get; set; }
+        public int status { get; set; }
     }
 }
