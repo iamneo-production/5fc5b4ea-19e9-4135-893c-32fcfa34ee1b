@@ -139,7 +139,7 @@ function AddLoan() {
   };
   
   const handlePanBlur = () => {
-    if (pan.match(/[A-Z]{5}[0-9]{4}[A-Z]{1}$/)) {
+    if (pan.match(/[A-Z]{5}[0-9]{4}[A-Z]$/)) {
       setFormData({ ...formdata, applicantPan: pan });
       setPanError("");
     } else {
