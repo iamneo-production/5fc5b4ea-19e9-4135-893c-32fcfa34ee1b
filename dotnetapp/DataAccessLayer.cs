@@ -19,7 +19,7 @@ namespace dotnetapp
         SqlConnection con=null;
         public DataAccessLayer()
         {
-            connectionString = "User ID=sa;password=examlyMssql@123; server=localhost;Database=BikeLoan;trusted_connection=false;Persist Security Info=False;Encrypt=False";
+            connectionString = "User ID=sa;password=examlyMssql@123; server=localhost;Database=Bikeloan;trusted_connection=false;Persist Security Info=False;Encrypt=False";
             con = new SqlConnection(connectionString);
         }
         //Auth Controller
