@@ -5,8 +5,8 @@ import Dashboard from "../admin/Dashboard";
 
 export default function LoanDetails() {
   const navigate = useNavigate();
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [id, setId] = useState();
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [loanId, setLoanId] = useState();
   const [applicantName, setName] = useState();
   const [applicantAddress, setAddress] = useState();
@@ -55,7 +55,28 @@ export default function LoanDetails() {
       }).catch((err) => {
         alert("No loan found");
       });
-    
+
+  
+  };
+
+  const renderButtonLabel = () => {
+    if (status === 1) {
+      return "Accepted";
+    } else if (status === 2) {
+      return "Rejected";
+    } else {
+      return "Pending";
+    }
+  };
+
+  const renderButtonVariant = () => {
+    if (status === 1) {
+      return "success";
+    } else if (status === 2) {
+      return "danger";
+    } else {
+      return "warning";
+    }
   };
 
   
@@ -64,6 +85,7 @@ export default function LoanDetails() {
     <Fragment>
       <Dashboard/>
       {isLoggedIn?(
+        <div>
         <div>
       <div style={{  }}>
         <p className="text-center fw-bold fs-5 mt-5" style={{alignItems:"center",fontColor:"Balck"}}><strong>Track Your Loan Application</strong></p>
@@ -114,10 +136,9 @@ export default function LoanDetails() {
              <td>
                <div className="loan-status">
                  <div>
-                   <Button variant={status === 1 ? "success" : (status === 2 ? "danger" : "warning")}>
-                                  {status === 1 ? "Accepted" : (status === 2 ? "Rejected" : "Pending")}
-                  </Button>
-
+                 <Button variant={renderButtonVariant()}>
+                      {renderButtonLabel()}
+                    </Button>
                  </div>
                </div>
              </td>
@@ -126,8 +147,9 @@ export default function LoanDetails() {
        </table>
        
         )}
-        </div>
+  </div>
+  </div>
       ):null}
-    </Fragment>
+   </Fragment>
   );
 }
