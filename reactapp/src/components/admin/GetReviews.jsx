@@ -64,12 +64,13 @@ const ReviewList = () => {
           <p>No reviews available.</p>
         ) : (
           <ul>
-            {reviews.map((review) => (
-              <p style={cardStyle}>
-                <h3 style={nameStyle}>{review.name}</h3>
-                <p style={commentStyle}>{review.comment}</p>
-              </p>
-            ))}
+            {reviews.map((review, index) => (
+  <p key={index} style={cardStyle}>
+    <h3 style={nameStyle}>{review.name}</h3>
+    <p style={commentStyle}>{review.comment}</p>
+  </p>
+))}
+
           </ul>
         )}
       </center>
