@@ -7,7 +7,7 @@ import axios from "axios";
 export default function GetLoans() {
   const navigate = useNavigate();
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [data, setData] = useState([]);
+  const [, setData] = useState([]);
   const [loans, setLoans] = useState([]);
   
 
