@@ -4,7 +4,7 @@
 .wrapper,
 .addloan_wrapper,
 .display_users_wrapper {
-  font-family: "Ariel";
+  font-family: "Inter",sans-serif;
 }
 
 ::selection {
@@ -144,7 +144,7 @@ button[type="submit"] {
   color: white;
   padding: 15px;
   text-align: center;
-  font-family: "sans-serif";
+  font-family: "Inter",sans-serif;
 }
 
 button[type="submit"]:hover {
@@ -154,7 +154,7 @@ button[type="submit"]:hover {
 #login_,
 #register_ {
   font-size: 25px;
-  font-family: "sans-serif";
+  font-family: "Helvetica",sans-serif;
 }
 
 .navbar {
@@ -207,7 +207,7 @@ button[type="submit"]:hover {
 }
 
 #applicant_name {
-  font-family: "sans-serif";
+  font-family: "Helvetica",sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: black;
