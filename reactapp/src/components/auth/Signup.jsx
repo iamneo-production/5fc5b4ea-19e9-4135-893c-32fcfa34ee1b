@@ -53,7 +53,7 @@ const handleConfirmPasswordChange = (value) => {
     }
 
     if (userRole === "admin") {
-      const url2 = 'https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/admin/signup';
+      const url2 = 'https://8080-aaddebfbaaeaedabdacfdafeabdcdceeeeaf.project.examly.io/api/admin/signup';
       axios.post(url2, data).then((result) => {
           if (result.data === 'Admin added successfully'){
               toast.success("Admin added successfully!");
@@ -68,7 +68,7 @@ const handleConfirmPasswordChange = (value) => {
       
   } else if (userRole === "user") {
                    
-      const url1 = 'https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/signup';
+      const url1 = 'https://8080-aaddebfbaaeaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/signup';
       axios.post(url1, data).then((result) => {
           if (result.data === 'User added successfully'){
             toast.success("User added successfully!");

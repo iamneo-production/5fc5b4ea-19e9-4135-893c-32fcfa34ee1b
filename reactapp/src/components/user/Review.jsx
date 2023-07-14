@@ -34,7 +34,7 @@ const Review = () => {
           comment: comment
         };
     
-        const result = axios.post("https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/addReview",reviewData).then((res)=>console.log(res));
+        const result = axios.post("https://8080-aaddebfbaaeaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/addReview",reviewData).then((res)=>console.log(res));
     
         if (result) {
           console.log("Review submitted successfully");

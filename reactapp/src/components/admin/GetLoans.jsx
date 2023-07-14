@@ -27,7 +27,7 @@ export default function GetLoans() {
 
   const fetchAppliedLoans = () => {
     axios
-      .get('https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/admin/getAllLoans')
+      .get('https://8080-aaddebfbaaeaedabdacfdafeabdcdceeeeaf.project.examly.io/api/admin/getAllLoans')
       .then((res) => {
         if (res.data.length > 0) {
           setData(res.data.Result);
@@ -40,7 +40,7 @@ export default function GetLoans() {
   const handleReject = (e,loan) => {
     loan.status=2
     console.log(loan);
-    axios.put(`https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/editLoan/${loan.loanId}`, loan).then((res) => {
+    axios.put(`https://8080-aaddebfbaaeaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/editLoan/${loan.loanId}`, loan).then((res) => {
       window.location.reload(true);
       })
       .catch((err) => console.log(err));
@@ -49,9 +49,9 @@ export default function GetLoans() {
   const handleApprove = (e,loan) => {
     loan.status=1
     console.log(loan);
-    axios.put(`https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/editLoan/${loan.loanId}`, loan)
+    axios.put(`https://8080-aaddebfbaaeaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/editLoan/${loan.loanId}`, loan)
     .then((res) => {
-      axios.put(`https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/admin/generateEmi/${loan.loanId}`).then((res)=>console.log(res))
+      axios.put(`https://8080-aaddebfbaaeaedabdacfdafeabdcdceeeeaf.project.examly.io/api/admin/generateEmi/${loan.loanId}`).then((res)=>console.log(res))
       window.location.reload(true);
     })
     .catch((err) => console.log(err));
@@ -59,7 +59,7 @@ export default function GetLoans() {
   
 
   useEffect(() => {
-    fetch("https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/admin/getAllLoans", {
+    fetch("https://8080-aaddebfbaaeaedabdacfdafeabdcdceeeeaf.project.examly.io/api/admin/getAllLoans", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

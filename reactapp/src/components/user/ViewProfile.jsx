@@ -31,7 +31,7 @@ export default function ViewProfile() {
     const fetchData =  () => {
       console.log("entered");
       console.log(email);
-      axios.get(`https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/getProfile/${email}`)
+      axios.get(`https://8080-aaddebfbaaeaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/getProfile/${email}`)
         .then((result) => {
           console.log(result);
           setProfile({...profile,
@@ -54,7 +54,7 @@ export default function ViewProfile() {
     try {
 
       console.log(profile)
-      axios.put(`https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/editProfile/${email}`,profile).then((response)=>{
+      axios.put(`https://8080-aaddebfbaaeaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/editProfile/${email}`,profile).then((response)=>{
         console.log(response);
         if(response.data==="User updated"){
           window.location.reload(true);

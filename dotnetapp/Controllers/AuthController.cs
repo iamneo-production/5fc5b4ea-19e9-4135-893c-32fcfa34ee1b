@@ -31,8 +31,7 @@ namespace dotnetapp.Controllers
         {
             return bussiness_layer.isAdminPresent(data);
         }
-
-        //Add the user or jobseeker data to user database
+        
         [HttpPost("user/signup")]
         public IActionResult saveUser(UserModel user)
         {
