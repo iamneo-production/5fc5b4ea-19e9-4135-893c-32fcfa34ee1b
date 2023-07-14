@@ -22,7 +22,7 @@ namespace dotnetapp
             connectionString = "User ID=sa;password=examlyMssql@123; server=localhost;Database=BikeLoan;trusted_connection=false;Persist Security Info=False;Encrypt=False";
             con = new SqlConnection(connectionString);
         }
-        //Auth Controller
+        //Auth Controller methods
 
         public bool isUserPresent(LoginModel data)
         {
@@ -136,7 +136,7 @@ namespace dotnetapp
             }
         }
 
-        //Admin Controller
+        //Admin Controller methods
 
         public List<LoanModel> getAllLoans()
         {
@@ -279,7 +279,7 @@ namespace dotnetapp
 
         public void genSchedule(int loanId)
         {
-            //string s = "";
+           
             try
             {
                 SqlCommand cmd = new SqlCommand("genschl_updateEMI", con);
@@ -408,57 +408,9 @@ namespace dotnetapp
         }
 
 
-        /* internal static string AdminDeleteLoan(int loanId)
-                 {
-                     string s = "";
-                     try
-                     {
-                         SqlCommand cmd = new SqlCommand("lsp_DeleteById", con);
-                         cmd.CommandType = CommandType.StoredProcedure;
-                         cmd.Parameters.AddWithValue("@loanId", loanId);
-                         con.Open();
-                         int i = cmd.ExecuteNonQuery();
-                         con.Close();
-                         if (i > 0)
-                             s = "Loan Application Deleted";
-                         else
-                             s = "Loan Application Not Deleted";
-                     }
+        
 
-                     catch (Exception ex)
-                     {
-                         s = ex.Message;
-                     }
-                     return s;
-                 }
-
-
-                 internal static string deleteSchedule(int loanId)
-                 {
-                     string s = "";
-                     try
-                     {
-                         SqlCommand cmd = new SqlCommand("asp_deleteRepaymentSchedule", con);
-                         cmd.CommandType = CommandType.StoredProcedure;
-                         cmd.Parameters.AddWithValue("@loanId", loanId);
-                         con.Open();
-                         int i = cmd.ExecuteNonQuery();
-                         con.Close();
-                         if (i > 0)
-                             s = "RepaymentSchedule Deleted";
-                         else
-                             s = "RepaymentSchedule Not Deleted";
-                     }
-
-                     catch (Exception ex)
-                     {
-                         s = ex.Message;
-                     }
-                     return s;
-                 }
-             */
-
-        //UserController
+        //UserController methods
 
         public string addUser(ProfileModel lm)
         {
@@ -595,7 +547,7 @@ namespace dotnetapp
 
 
 
-        //Loan Controller
+        //Loan Controller methods
         public LoanModel getLoan(int loanId)
         {
 
@@ -723,7 +675,7 @@ namespace dotnetapp
             }
             return s;
         }
-        //Review Controller
+        //Review Controller methods
         public string AddReview(ReviewModel review)
         {
             string msg = string.Empty;
