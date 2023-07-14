@@ -23,7 +23,7 @@ const ReviewList = () => {
 
   const fetchReviews = async () => {
     try {
-      const response = await fetch('https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/admin/getReviews'); // Replace with your actual API endpoint
+      const response = await fetch('https://8080-bbafeefeaedabdacfdafeabdcdceeeeaf.project.examly.io/api/admin/getReviews'); // Replace with your actual API endpoint
       const data = await response.json();
       setReviews(data);
     } catch (error) {
