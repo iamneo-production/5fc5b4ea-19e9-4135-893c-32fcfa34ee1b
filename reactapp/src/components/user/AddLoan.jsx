@@ -139,13 +139,14 @@ function AddLoan() {
   };
   
   const handlePanBlur = () => {
-  if (pan.match(/[A-Z]{5}\d{4}[A-Z]{1}$/)) {
+  if (pan.match(/[A-Z]{5}\d{4}[A-Z]$/)) {
     setFormData({ ...formdata, applicantPan: pan });
     setPanError("");
   } else {
     setPanError("Invalid PAN");
   }
 };
+
 
   const handleMonthlySalaryChange = (event) => {
     const value = event.target.value;
