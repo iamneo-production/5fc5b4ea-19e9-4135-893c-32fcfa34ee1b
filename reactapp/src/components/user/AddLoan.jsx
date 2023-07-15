@@ -226,12 +226,10 @@ function AddLoan() {
             return;
           }
       
-       if (!pan.match(/[A-Z]{5}\d{4}[A-Z]$/)) {
-        setPanError("Invalid PAN");
-        return;
-      }
-
-
+          if (!pan.match(/[A-Z]{5}\d{4}[A-Z]$/)) {
+            setPanError("Invalid PAN");
+            return;
+          }
       
           if (parseInt(salary) <= 0) {
             setSalaryError("Invalid salary");
