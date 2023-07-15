@@ -139,14 +139,14 @@ function AddLoan() {
   };
   
   const handlePanBlur = () => {
-    if (pan.match(/[A-Z]{5}[0-9]{4}[A-Z]{1}$/)) {
-      setFormData({ ...formdata, applicantPan: pan });
-      setPanError("");
-    } else {
-        setPanError("Invalid PAN");
-    }
-  };
-  
+  if (pan.match(/[A-Z]{5}\d{4}[A-Z]{1}$/)) {
+    setFormData({ ...formdata, applicantPan: pan });
+    setPanError("");
+  } else {
+    setPanError("Invalid PAN");
+  }
+};
+
   const handleMonthlySalaryChange = (event) => {
     const value = event.target.value;
     setSalary(value);
@@ -393,10 +393,10 @@ function AddLoan() {
             return;
           }
       
-          if (!pan.match(/[A-Z]{5}[0-9]{4}[A-Z]{1}$/)) {
-            setPanError("Invalid PAN");
-            return;
-          }
+          if (!pan.match(/[A-Z]{5}\d{4}[A-Z]$/)) {
+             setPanError("Invalid PAN");
+             return;
+           }
       
           if (parseInt(salary) <= 0) {
             setSalaryError("Invalid salary");
