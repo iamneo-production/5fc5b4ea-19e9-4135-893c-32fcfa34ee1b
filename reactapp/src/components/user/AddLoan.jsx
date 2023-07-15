@@ -139,14 +139,15 @@ function AddLoan() {
   };
   
   const handlePanBlur = () => {
-    if (pan.match(/[A-Z]{5}[0-9]{4}[A-Z]{1}$/)) {
-      setFormData({ ...formdata, applicantPan: pan });
-      setPanError("");
-    } else {
-        setPanError("Invalid PAN");
-    }
-  };
-  
+  if (pan.match(/[A-Z]{5}\d{4}[A-Z]$/)) {
+    setFormData({ ...formdata, applicantPan: pan });
+    setPanError("");
+  } else {
+    setPanError("Invalid PAN");
+  }
+};
+
+
   const handleMonthlySalaryChange = (event) => {
     const value = event.target.value;
     setSalary(value);
@@ -361,7 +362,7 @@ function AddLoan() {
     console.log(loanId);
     console.log(formdata2);
     axios
-      .post("https://8080-fdddbbdbdabbedcbfaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/addProfile", formdata2)
+      .post("https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/addProfile", formdata2)
       .then(() => {
         console.log("added");
         navigate("/user/ApplySuccess");
@@ -393,10 +394,10 @@ function AddLoan() {
             return;
           }
       
-          if (!pan.match(/[A-Z]{5}[0-9]{4}[A-Z]{1}$/)) {
-            setPanError("Invalid PAN");
-            return;
-          }
+          if (!pan.match(/[A-Z]{5}\d{4}[A-Z]$/)) {
+             setPanError("Invalid PAN");
+             return;
+           }
       
           if (parseInt(salary) <= 0) {
             setSalaryError("Invalid salary");
@@ -414,12 +415,12 @@ function AddLoan() {
           }
 
     axios
-      .post("https://8080-fdddbbdbdabbedcbfaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/addLoan", formdata)
+      .post("https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/addLoan", formdata)
       .then((result) => {
         if (result.data === "Loan Application Added") {
           console.log(formdata2);
           axios
-            .get("https://8080-fdddbbdbdabbedcbfaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/getLoanId")
+            .get("https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/getLoanId")
             .then((res) => {
               sessionStorage.setItem("loanid", res.data);
               console.log(sessionStorage.getItem("loanid"));
@@ -445,10 +446,10 @@ function AddLoan() {
     formData.append("documentType", documentType);
 
     axios
-      .post("https://8080-fdddbbdbdabbedcbfaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/addDocuments", formData)
+      .post("https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/addDocuments", formData)
       .then((res) => {
         axios
-          .get("https://8080-fdddbbdbdabbedcbfaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/getDocumentId")
+          .get("https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/getDocumentId")
           .then((res) => {
             sessionStorage.setItem("docid", res.data);
             console.log(res.data);
