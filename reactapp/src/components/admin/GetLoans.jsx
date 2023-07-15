@@ -7,9 +7,9 @@ import axios from "axios";
 export default function GetLoans() {
   const navigate = useNavigate();
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [data, setData] = useState([]);
+  const [, setData] = useState([]);
   const [loans, setLoans] = useState([]);
- 
+
   useEffect(() => {
   fetchAppliedLoans();
   }, []);
@@ -72,6 +72,35 @@ export default function GetLoans() {
       })
       .catch((err) => console.log(err));
   }, []);
+  
+  const renderLoanStatus = (loan) => {
+    if (loan.status === "approved") {
+      return <span className="status approved">Approved</span>;
+    } else if (loan.status === "rejected") {
+      return <span className="status rejected">Rejected</span>;
+    } else {
+      return (
+        <>
+          <button
+            onClick={(e) => handleApprove(e, loan)}
+            className={`approve-btn ${loan.status === "rejected" ? "disabled" : ""}`}
+            disabled={loan.status === "rejected"}
+            style={{ marginRight: "10px", marginBottom: "10px" }}
+          >
+            Approve
+          </button>
+          <button
+            onClick={(e) => handleReject(e, loan)}
+            className={`reject-btn ${loan.status === "approved" ? "disabled" : ""}`}
+            disabled={loan.status === "approved"}
+            style={{ marginBottom: "10px" }}
+          >
+            Reject
+          </button>
+        </>
+      );
+    }
+  };
 
   return (
     <Fragment>
@@ -116,33 +145,10 @@ export default function GetLoans() {
                <tr>
                 <td style={{paddingLeft:'20px', paddingRight: '10px',marginBottom:'15px'}}>Loan Amount:</td><td>{loan.loanAmountRequired}</td>
                 <td style={{ paddingLeft: '20px', paddingRight: '10px',marginBottom:'15px' }}>Loan ID:</td><td>{loan.loanId}</td>
-                <td colSpan='2' style={{ paddingLeft: '20px' }}>
-                 {loan.status === 'approved' ? (
-                  <span className='status approved'>Approved</span>
-                ) : loan.status === 'rejected' ? (
-                  <span className='status rejected'>Rejected</span>
-                ) : (
-              <>
-              <button
-               onClick={(e) => handleApprove(e, loan)}
-               className={`approve-btn ${loan.status === 'rejected' ? 'disabled' : ''}`}
-              disabled={loan.status === 'rejected'}
-              style={{ marginRight: '10px' ,marginBottom:'10px'  }}
-              >
-              Approve
-            </button>
-            <button
-              onClick={(e) => handleReject(e, loan)}
-              className={`reject-btn ${loan.status === 'approved' ? 'disabled' : ''}`}
-              disabled={loan.status === 'approved'}
-              style={{ marginBottom:'10px'  }}
-            >
-            Reject
-           </button>
-          </>
-         )}
-         </td>
-         </tr>
+                <td colSpan="2" style={{ paddingLeft: "20px" }}>
+                              {renderLoanStatus(loan)}
+                            </td>
+                </tr>
 
                 </tbody>
               </table>
