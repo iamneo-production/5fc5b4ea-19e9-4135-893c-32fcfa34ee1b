@@ -17,7 +17,7 @@ export default function LoanDetails() {
   const [applicantSalary, setSalary] = useState();
   const[loanAmountRequired,setLoanAmount]=useState();
   const [status, setStatus] = useState();
-  const [, setItem] = useState({});
+  const [item, setItem] = useState({});
 
   useEffect(() => {
     const loginInfo = sessionStorage.getItem("login-info");
