@@ -139,7 +139,7 @@ function AddLoan() {
   };
   
   const handlePanBlur = () => {
-    if (pan.match(/[A-Z]{5}[0-9]{4}[A-Z]{1}$/)) {
+    if (pan.match(/[A-Z]{5}\d{4}[A-Z]$/)) {
       setFormData({ ...formdata, applicantPan: pan });
       setPanError("");
     } else {
@@ -226,10 +226,12 @@ function AddLoan() {
             return;
           }
       
-          if (!pan.match(/[A-Z]{5}[0-9]{4}[A-Z]{1}$/)) {
-            setPanError("Invalid PAN");
-            return;
-          }
+       if (!pan.match(/[A-Z]{5}\d{4}[A-Z]$/)) {
+        setPanError("Invalid PAN");
+        return;
+      }
+
+
       
           if (parseInt(salary) <= 0) {
             setSalaryError("Invalid salary");
