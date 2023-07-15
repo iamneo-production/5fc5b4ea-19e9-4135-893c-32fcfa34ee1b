@@ -23,7 +23,7 @@ const ReviewList = () => {
 
   const fetchReviews = async () => {
     try {
-      const response = await fetch('https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/admin/getReviews'); // Replace with your actual API endpoint
+      const response = await fetch('https://8080-aeabadebfbebeddadcaedabdacfdafeabdcdceeeeaf.project.examly.io/api/admin/getReviews'); // Replace with your actual API endpoint
       const data = await response.json();
       setReviews(data);
     } catch (error) {
@@ -64,12 +64,21 @@ const ReviewList = () => {
           <p>No reviews available.</p>
         ) : (
           <ul>
+
+            {reviews.map((review,index) => (
+              <p key={index} style={cardStyle}>
+                <h3 style={nameStyle}>{review.name}</h3>
+                <p style={commentStyle}>{review.comment}</p>
+              </p>
+            ))}
+
          {reviews.map((review) => (
   <p key={review.id} style={cardStyle}>
     <h3 style={nameStyle}>{review.name}</h3>
     <p style={commentStyle}>{review.comment}</p>
   </p>
 ))}
+
 
 
           </ul>

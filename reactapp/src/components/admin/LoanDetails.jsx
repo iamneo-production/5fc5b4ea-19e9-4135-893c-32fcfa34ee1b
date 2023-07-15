@@ -17,7 +17,7 @@ export default function LoanDetails() {
   const [applicantSalary, setSalary] = useState();
   const[loanAmountRequired,setLoanAmount]=useState();
   const [status, setStatus] = useState();
-  const [, setItem] = useState({});
+  const [item, setItem] = useState({});
 
   useEffect(() => {
     const loginInfo = sessionStorage.getItem("login-info");
@@ -31,7 +31,7 @@ export default function LoanDetails() {
 
   const loan = (e) => {
     e.preventDefault();
-    fetch(`https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/viewLoan/${id}`)
+    fetch(`https://8080-aeabadebfbebeddadcaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/viewLoan/${id}`)
       .then((res) => res.json())
       .then((result) => {
         if (result == null) {
