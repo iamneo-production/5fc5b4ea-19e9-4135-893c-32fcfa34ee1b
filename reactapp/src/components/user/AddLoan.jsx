@@ -139,7 +139,7 @@ function AddLoan() {
   };
   
   const handlePanBlur = () => {
-    if (pan.match(/[A-Z]{5}\d{4}[A-Z]$/)) {
+    if (pan.match(/[A-Z]{5}[0-9]{4}[A-Z]{1}$/)) {
       setFormData({ ...formdata, applicantPan: pan });
       setPanError("");
     } else {
@@ -189,138 +189,23 @@ function AddLoan() {
   };
 
   
-  const addloan = () => {
-    console.log("adding");
-    console.log(loanId);
-    console.log(formdata2);
-    axios
-      .post("https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/addProfile", formdata2)
-      .then(() => {
-        console.log("added");
-        navigate("/user/ApplySuccess");
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  };
-
-  const handleapply = (e) => {
-    e.preventDefault();
-        if (name.trim() === "") {
-            setNameError("Name is required");
-            return;
-          }
-      
-          if (!aadhar.match(/^\d{12}$/)) {
-            setAadharError("Invalid Aadhaar number");
-            return;
-          }
-      
-          if (!mobile.match(/^[6-9]\d{9}$/)) {
-            setMobileError("Invalid mobile number");
-            return;
-          }
-      
-          if (address.trim() === "") {
-            setAddressError("Address is required");
-            return;
-          }
-      
-          if (!pan.match(/[A-Z]{5}\d{4}[A-Z]$/)) {
-            setPanError("Invalid PAN");
-            return;
-          }
-      
-          if (parseInt(salary) <= 0) {
-            setSalaryError("Invalid salary");
-            return;
-          }
-      
-          if (!loanAmountRequired.match(/^\d{6}$/)) {
-            setLoanAmountError("Please enter a valid loan amount");
-            return;
-          }
-      
-          if (parseInt(loanRepaymentMonths) <= 0) {
-            setRepaymentMonthsError("Please enter a valid number of months");
-            return;
-          }
-
-    axios
-      .post("https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/addLoan", formdata)
-      .then((result) => {
-        if (result.data === "Loan Application Added") {
-          console.log(formdata2);
-          axios
-            .get("https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/getLoanId")
-            .then((res) => {
-              sessionStorage.setItem("loanid", res.data);
-              console.log(sessionStorage.getItem("loanid"));
-              addloan();
-            });
-        }
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  };
-
-  const addDoc = async (e) => {
-    e.preventDefault();
-    const formData = new FormData();
-    const file = documentUpload;
-    if (file && file.size > 2 * 1024 * 1024) {
-      alert("File size should be less than 2MB.");
-      return;
-    }
-
-    formData.append("file", file);
-    formData.append("documentType", documentType);
-
-    axios
-      .post("https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/addDocuments", formData)
-      .then((res) => {
-        axios
-          .get("https://8080-cecfabafbfbdaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/getDocumentId")
-          .then((res) => {
-            sessionStorage.setItem("docid", res.data);
-            console.log(res.data);
-          });
-      })
-      .catch((error) => {
-        console.log(error);
-        alert("Could not add document");
-      });
-
-    if (file) {
-      console.log(file);
-    } else {
-      alert("No file selected.");
-    }
-  };
-
-  return (
-    <Fragment>
-      <Navbar />
-      {isLoggedIn ? (
-        <div>
+  const renderPage1 = () => {
+    return (
       <div>
         <center>
           <div id="box4" className="addloan_wrapper">
             <form id="box6">
               <div id="box5" className="addloan_form">
-                   
-              <input
+                <input
                   type="text"
                   id="enterName"
                   placeholder="Enter Applicant Name"
                   value={name}
-                  onChange={(e) => handleNameChange(e)}
+                  onChange={handleNameChange}
                   className={nameError ? "error" : ""}
                   required
                 />
                 {nameError && <p className="error">{nameError}</p>}
-
                 <input
                   type="email"
                   id="enterEmail"
@@ -328,8 +213,8 @@ function AddLoan() {
                   value={sessionStorage.getItem("login-info")}
                   disabled
                 />
-
-                <input
+                {/* ... Remaining input fields ... */}
+                 <input
                   type="tel"
                   id="enterMobile"
                   placeholder="Enter mobile number"
@@ -423,14 +308,19 @@ function AddLoan() {
           </div>
         </center>
       </div>
+    );
+  };
 
+  const renderPage2 = () => {
+    return (
       <div>
         <center>
           <div className="pages2" id="page2">
             <div className="addloan_form">
-            <form onSubmit={handleapply} encType="multipart/form-data">
-            <div >
-              <div>
+              <form onSubmit={handleapply} encType="multipart/form-data">
+                {/* ... Form for uploading documents ... */}
+                <div >
+                 <div>
                 <label>Upload documents(Mandatory*)</label>
                 <select name="file_type" id="selectDocumentType" onChange={e => setLoanType(e.target.value)}>
                   <option value="aadhar">Aadhar</option>
@@ -457,24 +347,144 @@ function AddLoan() {
               </div>
 
             </div>
-          </form>
+              </form>
             </div>
           </div>
         </center>
       </div>
+    );
+  };  
 
-      <center>
-        <button id="pagechange1" onClick={handlepage1}>
-          1
-        </button>&nbsp;&nbsp;
-        <button id="pagechange2" onClick={handlepage2}>
-          2
-        </button>
-      </center>
-      </div>
-      ):null}
-    </Fragment>
+  
+  const addloan = () => {
+    console.log("adding");
+    console.log(loanId);
+    console.log(formdata2);
+    axios
+      .post("https://8080-fdddbbdbdabbedcbfaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/addProfile", formdata2)
+      .then(() => {
+        console.log("added");
+        navigate("/user/ApplySuccess");
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
+  const handleapply = (e) => {
+    e.preventDefault();
+        if (name.trim() === "") {
+            setNameError("Name is required");
+            return;
+          }
       
+          if (!aadhar.match(/^\d{12}$/)) {
+            setAadharError("Invalid Aadhaar number");
+            return;
+          }
+      
+          if (!mobile.match(/^[6-9]\d{9}$/)) {
+            setMobileError("Invalid mobile number");
+            return;
+          }
+      
+          if (address.trim() === "") {
+            setAddressError("Address is required");
+            return;
+          }
+      
+          if (!pan.match(/[A-Z]{5}[0-9]{4}[A-Z]{1}$/)) {
+            setPanError("Invalid PAN");
+            return;
+          }
+      
+          if (parseInt(salary) <= 0) {
+            setSalaryError("Invalid salary");
+            return;
+          }
+      
+          if (!loanAmountRequired.match(/^\d{6}$/)) {
+            setLoanAmountError("Please enter a valid loan amount");
+            return;
+          }
+      
+          if (parseInt(loanRepaymentMonths) <= 0) {
+            setRepaymentMonthsError("Please enter a valid number of months");
+            return;
+          }
+
+    axios
+      .post("https://8080-fdddbbdbdabbedcbfaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/addLoan", formdata)
+      .then((result) => {
+        if (result.data === "Loan Application Added") {
+          console.log(formdata2);
+          axios
+            .get("https://8080-fdddbbdbdabbedcbfaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/getLoanId")
+            .then((res) => {
+              sessionStorage.setItem("loanid", res.data);
+              console.log(sessionStorage.getItem("loanid"));
+              addloan();
+            });
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
+  const addDoc = async (e) => {
+    e.preventDefault();
+    const formData = new FormData();
+    const file = documentUpload;
+    if (file && file.size > 2 * 1024 * 1024) {
+      alert("File size should be less than 2MB.");
+      return;
+    }
+
+    formData.append("file", file);
+    formData.append("documentType", documentType);
+
+    axios
+      .post("https://8080-fdddbbdbdabbedcbfaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/addDocuments", formData)
+      .then((res) => {
+        axios
+          .get("https://8080-fdddbbdbdabbedcbfaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/getDocumentId")
+          .then((res) => {
+            sessionStorage.setItem("docid", res.data);
+            console.log(res.data);
+          });
+      })
+      .catch((error) => {
+        console.log(error);
+        alert("Could not add document");
+      });
+
+    if (file) {
+      console.log(file);
+    } else {
+      alert("No file selected.");
+    }
+  };
+
+  return (
+    <Fragment>
+      <Navbar />
+      {isLoggedIn && (
+        <div>
+          <div>{renderPage1()}</div>
+          <div>{renderPage2()}</div>
+          <center>
+            <button id="pagechange1" onClick={handlepage1}>
+              1
+            </button>
+            &nbsp;&nbsp;
+            <button id="pagechange2" onClick={handlepage2}>
+              2
+            </button>
+          </center>
+        </div>
+      )}
+    </Fragment>
   );
 }
 
