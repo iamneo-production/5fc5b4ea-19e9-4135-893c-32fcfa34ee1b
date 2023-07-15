@@ -28,8 +28,8 @@ export default function Login() {
       password: password
     };
 
-    const url1 = 'https://8080-bbafeefeaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/login';
-    const url2 = 'https://8080-bbafeefeaedabdacfdafeabdcdceeeeaf.project.examly.io/api/admin/login';
+    const url1 = 'https://8080-aeabadebfbebeddadcaedabdacfdafeabdcdceeeeaf.project.examly.io/api/user/login';
+    const url2 = 'https://8080-aeabadebfbebeddadcaedabdacfdafeabdcdceeeeaf.project.examly.io/api/admin/login';
 
     try {
       const userLoginResult = await axios.post(url1, data);
