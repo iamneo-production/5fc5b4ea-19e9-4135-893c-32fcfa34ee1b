@@ -9,8 +9,8 @@ namespace dotnetapp
     public class BusinessLayer
     {
         private DataAccessLayer data_Access_layer = new DataAccessLayer();
-        //Auth Controller
-
+        
+        //Auth Controller 
         public bool isUserPresent(LoginModel data)
         {
             return data_Access_layer.isUserPresent(data);
@@ -27,10 +27,7 @@ namespace dotnetapp
         {
             return data_Access_layer.saveAdmin(user);
         }
-
-
         //Admin Controller
-
         public List<LoanModel> getAllLoans()
         {
             return data_Access_layer.getAllLoans();
@@ -82,12 +79,7 @@ namespace dotnetapp
         {
             return data_Access_layer.deleteDocuments(documentId);
         }
-
-
-
-
         //UserController
-
         public string addUser(ProfileModel pm)
         {
             return data_Access_layer.addUser(pm);
@@ -108,12 +100,7 @@ namespace dotnetapp
         {
             return data_Access_layer.deleteUser(email);
         }
-
-
-
-
         //LoanController
-
         public LoanModel getLoan(int loanId)
         {
             return data_Access_layer.getLoan(loanId);
@@ -136,7 +123,6 @@ namespace dotnetapp
         {
             return data_Access_layer.deleteLoan(LoanId);
         }
-
         //Review Controller
         public string AddReview(ReviewModel review)
         {
