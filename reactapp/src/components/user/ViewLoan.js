@@ -118,7 +118,7 @@ export default function LoanDetails() {
            <tr>
              <td style={{ padding: '10px' }}>Applicant Name: {applicantName}</td>
              <td style={{ padding: '10px' }}>Applicant Address: {applicantAddress}</td>
-             <td style={{ padding: '10px' }}>Applicant Phone no: {applicantEmail}</td>
+             <td style={{ padding: '10px' }}>Applicant Phone no: {applicantMobile}</td>
            </tr>
            <tr>
              <td style={{ padding: '10px' }}>Applicant Salary: {applicantSalary}</td>
