@@ -37,6 +37,7 @@ export default function Login() {
 
       if (userLoginResult.data === true) {
         sessionStorage.setItem("login-info", data.email);
+        sessionStorage.setItem("loanid",0);
         sessionStorage.setItem("role", "user");
         toast.success('User Logged in Successfully');
         navigate('/user/AddLoan');
